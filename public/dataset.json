@@ -1,0 +1,72 @@
+{
+    "nodes": [
+        {
+            "key": "Module 1",
+            "label": "Module 1",
+            "tag": "Tool",
+            "cluster": "0",
+            "x": 643.82275390625,
+            "y": -770.3126220703125,
+            "score": 0,
+            "recommend status": "Normal",
+            "amount": 0,
+            "related principle": "P7 - Sourcing"
+        },
+        {
+            "key": "Module 2",
+            "label": "Module 2",
+            "tag": "Tool",
+            "URL": "",
+            "cluster": "0",
+            "x": -857.2847900390625,
+            "y": 602.7734375,
+            "score": 2
+        },
+        {
+            "key": "Module 3",
+            "label": "Module 3",
+            "tag": "Tool",
+            "URL": "",
+            "cluster": "0",
+            "x": 343.4423828125,
+            "y": -749.0428466796875,
+            "score": 3
+        },
+        {
+            "key": "Module 4",
+            "label": "Module 4",
+            "tag": "Tool",
+            "URL": "",
+            "cluster": "0",
+            "x": -900.3515014648438,
+            "y": 633.4600830078125,
+            "score": 2
+        }
+    ],
+    "edges": [
+        ["Module 1", "Module 2"],
+        ["Module 1", "Module 3"],
+        ["Module 3", "Module 4"]
+    ],
+    "clusters": [ 
+    { "key": "0", "color": "#6c3e81", "clusterLabel": "Graph theory" },
+    { "key": "1", "color": "#a4923a", "clusterLabel": "Engineering" },
+    { "key": "2", "color": "#5f83cc", "clusterLabel": "Semantic networks" },
+    { "key": "3", "color": "#666666", "clusterLabel": "Sociometry" },
+    { "key": "4", "color": "#666666", "clusterLabel": "Ideas and concepts" },
+    { "key": "5", "color": "#666666", "clusterLabel": "Tensors (mathematics)" }
+  ],
+  "tags": [
+    { "key": "Chart type", "image": "charttype.svg" },
+    { "key": "Company", "image": "company.svg" },
+    { "key": "Concept", "image": "concept.svg" },
+    { "key": "Field", "image": "field.svg" },
+    { "key": "List", "image": "list.svg" },
+    { "key": "Method", "image": "method.svg" },
+    { "key": "Organization", "image": "organization.svg" },
+    { "key": "Person", "image": "person.svg" },
+    { "key": "Technology", "image": "technology.svg" },
+    { "key": "Tool", "image": "tool.svg" },
+    { "key": "unknown", "image": "unknown.svg" }
+  ]
+}
