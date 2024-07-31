@@ -6,7 +6,8 @@
         "tag": "Module",
         "cluster": "Model Detail",
         "x": 0,
-        "y": -1050
+        "y": -1050,
+        "score": 10
     },
     {
         "key": 2,
@@ -470,7 +471,8 @@
         "tag": "Module",
         "cluster": "Model Use",
         "x": 0,
-        "y": -1225
+        "y": -1225,
+        "score": 10
     },
     {
         "key": 41,
@@ -730,7 +732,8 @@
         "tag": "Module",
         "cluster": "Data",
         "x": 0,
-        "y": -1400
+        "y": -1400,
+        "score": 10
     },
     {
         "key": 63,
@@ -1014,7 +1017,8 @@
         "tag": "Module",
         "cluster": "Training",
         "x": 0,
-        "y": -1675
+        "y": -1675,
+        "score": 10
     },
     {
         "key": 87,
@@ -2090,7 +2094,8 @@
         "tag": "Module",
         "cluster": "Performance and Limitations",
         "x": 0,
-        "y": -2000
+        "y": -2000,
+        "score": 10
     },
     {
         "key": 177,
@@ -2638,7 +2643,8 @@
         "tag": "Module",
         "cluster": "Community Engagement and Further Insights",
         "x": 0,
-        "y": -2175
+        "y": -2175,
+        "score": 10
     },
     {
         "key": 223,
