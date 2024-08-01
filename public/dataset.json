@@ -1,3002 +1,3718 @@
 {
     "nodes": [
-    {
-        "key": 1,
-        "label": "Model Detail",
-        "tag": "Module",
-        "cluster": "Model Detail",
-        "x": 0,
-        "y": -1050,
-        "score": 10
-    },
-    {
-        "key": 2,
-        "label": "Documentation and Authority",
-        "tag": "Level 1",
-        "cluster": "Model Detail",
-        "x": 0,
-        "y": -1000,
-        "related principle": "P7 - Sourcing",
-        "amount": 0,
-        "recommend status": "Suggested",
-        "score": 5
-    },
-    {
-        "key": 3,
-        "label": "Citation",
-        "tag": "Level 2",
-        "cluster": "Model Detail",
-        "x": 0,
-        "y": -950,
-        "related principle": "P7 - Sourcing",
-        "amount": 87,
-        "recommend status": "Core",
-        "score": 6
-    },
-    {
-        "key": 4,
-        "label": "License",
-        "tag": "Level 2",
-        "cluster": "Model Detail",
-        "x": 25.0,
-        "y": -950,
-        "related principle": "P7 - Sourcing",
-        "amount": 72,
-        "recommend status": "Core",
-        "score": 6
-    },
-    {
-        "key": 5,
-        "label": "Disclaimer",
-        "tag": "Level 2",
-        "cluster": "Model Detail",
-        "x": 50.0,
-        "y": -950,
-        "related principle": "P7 - Sourcing",
-        "amount": 79,
-        "recommend status": "Suggested",
-        "score": 5
-    },
-    {
-        "key": 6,
-        "label": "Terms of Use",
-        "tag": "Level 2",
-        "cluster": "Model Detail",
-        "x": 75.0,
-        "y": -950,
-        "related principle": "P7 - Sourcing",
-        "amount": 9,
-        "recommend status": "Core",
-        "score": 6
-    },
-    {
-        "key": 7,
-        "label": "Research Paper / Demo",
-        "tag": "Level 2",
-        "cluster": "Model Detail",
-        "x": 100.0,
-        "y": -950,
-        "related principle": "P12 - Visualization",
-        "amount": 82,
-        "recommend status": "Suggested",
-        "score": 5
-    },
-    {
-        "key": 8,
-        "label": "Document Info",
-        "tag": "Level 2",
-        "cluster": "Model Detail",
-        "x": 125.0,
-        "y": -950,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 60,
-        "recommend status": "Suggested",
-        "score": 5
-    },
-    {
-        "key": 9,
-        "label": "Community License Agreement",
-        "tag": "Level 2",
-        "cluster": "Model Detail",
-        "x": 150.0,
-        "y": -950,
-        "related principle": "P7 - Sourcing",
-        "amount": 9,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 10,
-        "label": "Acknowledgement",
-        "tag": "Level 2",
-        "cluster": "Model Detail",
-        "x": 175.0,
-        "y": -950,
-        "related principle": "P7 - Sourcing",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 11,
-        "label": "Development and Contribution",
-        "tag": "Level 1",
-        "cluster": "Model Detail",
-        "x": 25.0,
-        "y": -1000,
-        "related principle": "P7 - Sourcing",
-        "amount": 0,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 12,
-        "label": "Developed By",
-        "tag": "Level 2",
-        "cluster": "Model Detail",
-        "x": 200.0,
-        "y": -950,
-        "related principle": "P7 - Sourcing",
-        "amount": 76,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 13,
-        "label": "Funded By",
-        "tag": "Level 2",
-        "cluster": "Model Detail",
-        "x": 225.0,
-        "y": -950,
-        "related principle": "P7 - Sourcing",
-        "amount": 54,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 14,
-        "label": "Model Card Author",
-        "tag": "Level 2",
-        "cluster": "Model Detail",
-        "x": 250.0,
-        "y": -950,
-        "related principle": "P7 - Sourcing",
-        "amount": 55,
-        "recommend status": "Core",
-        "score": 6
-    },
-    {
-        "key": 15,
-        "label": "Model Specifics",
-        "tag": "Level 1",
-        "cluster": "Model Detail",
-        "x": 50.0,
-        "y": -1000,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 0,
-        "recommend status": "Suggested",
-        "score": 5
-    },
-    {
-        "key": 16,
-        "label": "Objective Function",
-        "tag": "Level 2",
-        "cluster": "Model Detail",
-        "x": 275.0,
-        "y": -950,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 86,
-        "recommend status": "Suggested",
-        "score": 5
-    },
-    {
-        "key": 17,
-        "label": "Model Type",
-        "tag": "Level 2",
-        "cluster": "Model Detail",
-        "x": 300.0,
-        "y": -950,
-        "related principle": "P7 - Sourcing",
-        "amount": 76,
-        "recommend status": "Core",
-        "score": 6
-    },
-    {
-        "key": 18,
-        "label": "Fine-tuned from Model",
-        "tag": "Level 2",
-        "cluster": "Model Detail",
-        "x": 325.0,
-        "y": -950,
-        "related principle": "P4 - Logical Argumentation",
-        "amount": 57,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 19,
-        "label": "Family of Models",
-        "tag": "Level 2",
-        "cluster": "Model Detail",
-        "x": 350.0,
-        "y": -950,
-        "related principle": "P7 - Sourcing",
-        "amount": 78,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 20,
-        "label": "Operational Details",
-        "tag": "Level 1",
-        "cluster": "Model Detail",
-        "x": 75.0,
-        "y": -1000,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 0,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 21,
-        "label": "Repo Link",
-        "tag": "Level 2",
-        "cluster": "Model Detail",
-        "x": 375.0,
-        "y": -950,
-        "related principle": "P7 - Sourcing",
-        "amount": 75,
-        "recommend status": "Core",
-        "score": 6
-    },
-    {
-        "key": 22,
-        "label": "Official Page Link",
-        "tag": "Level 2",
-        "cluster": "Model Detail",
-        "x": 400.0,
-        "y": -950,
-        "related principle": "P12 - Visualization",
-        "amount": 54,
-        "recommend status": "Suggested",
-        "score": 5
-    },
-    {
-        "key": 23,
-        "label": "Release Date",
-        "tag": "Level 2",
-        "cluster": "Model Detail",
-        "x": 425.0,
-        "y": -950,
-        "related principle": "P9 - Timeliness",
-        "amount": 12,
-        "recommend status": "Core",
-        "score": 6
-    },
-    {
-        "key": 24,
-        "label": "Training Date",
-        "tag": "Level 2",
-        "cluster": "Model Detail",
-        "x": 450.0,
-        "y": -950,
-        "related principle": "P9 - Timeliness",
-        "amount": 65,
-        "recommend status": "Core",
-        "score": 6
-    },
-    {
-        "key": 25,
-        "label": "Model Update Info",
-        "tag": "Level 2",
-        "cluster": "Model Detail",
-        "x": 475.0,
-        "y": -950,
-        "related principle": "P9 - Timeliness",
-        "amount": 4,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 26,
-        "label": "Model Updated Time",
-        "tag": "Level 2",
-        "cluster": "Model Detail",
-        "x": 500.0,
-        "y": -950,
-        "related principle": "P9 - Timeliness",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 27,
-        "label": "Language",
-        "tag": "Level 2",
-        "cluster": "Model Detail",
-        "x": 525.0,
-        "y": -950,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 59,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 28,
-        "label": "Warning",
-        "tag": "Level 2",
-        "cluster": "Model Detail",
-        "x": 550.0,
-        "y": -950,
-        "related principle": "P10 - Subjective Info",
-        "amount": 6,
-        "recommend status": "Core",
-        "score": 6
-    },
-    {
-        "key": 29,
-        "label": "Appendix",
-        "tag": "Level 2",
-        "cluster": "Model Detail",
-        "x": 575.0,
-        "y": -950,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 5,
-        "recommend status": "Ignored",
-        "score": 0
-    },
-    {
-        "key": 30,
-        "label": "Utility and Performance",
-        "tag": "Level 1",
-        "cluster": "Model Detail",
-        "x": 100.0,
-        "y": -1000,
-        "related principle": "P3 - User / Usage",
-        "amount": 0,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 31,
-        "label": "Requirement",
-        "tag": "Level 2",
-        "cluster": "Model Detail",
-        "x": 600.0,
-        "y": -950,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 65,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 32,
-        "label": "Technical Specifications",
-        "tag": "Level 2",
-        "cluster": "Model Detail",
-        "x": 625.0,
-        "y": -950,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 10,
-        "recommend status": "Suggested",
-        "score": 5
-    },
-    {
-        "key": 33,
-        "label": "Sample Generations",
-        "tag": "Level 2",
-        "cluster": "Model Detail",
-        "x": 650.0,
-        "y": -950,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 11,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 34,
-        "label": "Context and Purpose",
-        "tag": "Level 1",
-        "cluster": "Model Detail",
-        "x": 125.0,
-        "y": -1000,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 0,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 35,
-        "label": "Background",
-        "tag": "Level 2",
-        "cluster": "Model Detail",
-        "x": 675.0,
-        "y": -950,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 18,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 36,
-        "label": "Motivation",
-        "tag": "Level 2",
-        "cluster": "Model Detail",
-        "x": 700.0,
-        "y": -950,
-        "related principle": "P4 - Logical Argumentation",
-        "amount": 18,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 37,
-        "label": "Benefit",
-        "tag": "Level 2",
-        "cluster": "Model Detail",
-        "x": 725.0,
-        "y": -950,
-        "related principle": "P4 - Logical Argumentation",
-        "amount": 18,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 38,
-        "label": "Status",
-        "tag": "Level 2",
-        "cluster": "Model Detail",
-        "x": 750.0,
-        "y": -950,
-        "related principle": "P9 - Timeliness",
-        "amount": 12,
-        "recommend status": "Core",
-        "score": 6
-    },
-    {
-        "key": 39,
-        "label": "Others",
-        "tag": "Level 1",
-        "cluster": "Model Detail",
-        "x": 150.0,
-        "y": -1000,
-        "related principle": "P14 - Scalability & Flexibility",
-        "amount": 0,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 40,
-        "label": "Model Use",
-        "tag": "Module",
-        "cluster": "Model Use",
-        "x": 0,
-        "y": -1225,
-        "score": 10
-    },
-    {
-        "key": 41,
-        "label": "Alternative Plan",
-        "tag": "Level 1",
-        "cluster": "Model Use",
-        "x": 0,
-        "y": -1175,
-        "related principle": "P11 - Alternative Plan",
-        "amount": 0,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 42,
-        "label": "Glossary and Calculations",
-        "tag": "Level 1",
-        "cluster": "Model Use",
-        "x": 25.0,
-        "y": -1175,
-        "related principle": "P6 - Unambiguous",
-        "amount": 18,
-        "recommend status": "Suggested",
-        "score": 5
-    },
-    {
-        "key": 43,
-        "label": "Intended Use",
-        "tag": "Level 1",
-        "cluster": "Model Use",
-        "x": 50.0,
-        "y": -1175,
-        "related principle": "P3 - User / Usage",
-        "amount": 86,
-        "recommend status": "Suggested",
-        "score": 5
-    },
-    {
-        "key": 44,
-        "label": "Direct Use",
-        "tag": "Level 2",
-        "cluster": "Model Use",
-        "x": 0,
-        "y": -1125,
-        "related principle": "P3 - User / Usage",
-        "amount": 64,
-        "recommend status": "Core",
-        "score": 6
-    },
-    {
-        "key": 45,
-        "label": "Downstream Use",
-        "tag": "Level 2",
-        "cluster": "Model Use",
-        "x": 25.0,
-        "y": -1125,
-        "related principle": "P3 - User / Usage",
-        "amount": 50,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 46,
-        "label": "Primary Intended Use",
-        "tag": "Level 2",
-        "cluster": "Model Use",
-        "x": 50.0,
-        "y": -1125,
-        "related principle": "P3 - User / Usage",
-        "amount": 74,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 47,
-        "label": "Secondary Intended Uses",
-        "tag": "Level 2",
-        "cluster": "Model Use",
-        "x": 75.0,
-        "y": -1125,
-        "related principle": "P3 - User / Usage",
-        "amount": 11,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 48,
-        "label": "Intended User",
-        "tag": "Level 1",
-        "cluster": "Model Use",
-        "x": 75.0,
-        "y": -1175,
-        "related principle": "P3 - User / Usage",
-        "amount": 21,
-        "recommend status": "Suggested",
-        "score": 5
-    },
-    {
-        "key": 49,
-        "label": "Direct User",
-        "tag": "Level 2",
-        "cluster": "Model Use",
-        "x": 100.0,
-        "y": -1125,
-        "related principle": "P3 - User / Usage",
-        "amount": 11,
-        "recommend status": "Suggested",
-        "score": 5
-    },
-    {
-        "key": 50,
-        "label": "Indirect User",
-        "tag": "Level 2",
-        "cluster": "Model Use",
-        "x": 125.0,
-        "y": -1125,
-        "related principle": "P3 - User / Usage",
-        "amount": 7,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 51,
-        "label": "Others Affected (Parties Prenantes) ",
-        "tag": "Level 2",
-        "cluster": "Model Use",
-        "x": 150.0,
-        "y": -1125,
-        "related principle": "P3 - User / Usage",
-        "amount": 6,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 52,
-        "label": "Key Function Example",
-        "tag": "Level 1",
-        "cluster": "Model Use",
-        "x": 100.0,
-        "y": -1175,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 63,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 53,
-        "label": "Function Code",
-        "tag": "Level 2",
-        "cluster": "Model Use",
-        "x": 175.0,
-        "y": -1125,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 74,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 54,
-        "label": "Documentation",
-        "tag": "Level 2",
-        "cluster": "Model Use",
-        "x": 200.0,
-        "y": -1125,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 4,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 55,
-        "label": "Data",
-        "tag": "Level 2",
-        "cluster": "Model Use",
-        "x": 225.0,
-        "y": -1125,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 3,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 56,
-        "label": "Output",
-        "tag": "Level 2",
-        "cluster": "Model Use",
-        "x": 250.0,
-        "y": -1125,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 57,
-        "label": "Misuse and Malicious Use",
-        "tag": "Level 1",
-        "cluster": "Model Use",
-        "x": 125.0,
-        "y": -1175,
-        "related principle": "P3 - User / Usage",
-        "amount": 17,
-        "recommend status": "Suggested",
-        "score": 5
-    },
-    {
-        "key": 58,
-        "label": "Out-of-Scope Use",
-        "tag": "Level 1",
-        "cluster": "Model Use",
-        "x": 150.0,
-        "y": -1175,
-        "related principle": "P3 - User / Usage",
-        "amount": 68,
-        "recommend status": "Suggested",
-        "score": 5
-    },
-    {
-        "key": 59,
-        "label": "Recommendation",
-        "tag": "Level 1",
-        "cluster": "Model Use",
-        "x": 175.0,
-        "y": -1175,
-        "related principle": "P10 - Subjective Info",
-        "amount": 62,
-        "recommend status": "Suggested",
-        "score": 5
-    },
-    {
-        "key": 60,
-        "label": "Use Guideline",
-        "tag": "Level 1",
-        "cluster": "Model Use",
-        "x": 200.0,
-        "y": -1175,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 104,
-        "recommend status": "Core",
-        "score": 6
-    },
-    {
-        "key": 61,
-        "label": "Others",
-        "tag": "Level 1",
-        "cluster": "Model Use",
-        "x": 225.0,
-        "y": -1175,
-        "related principle": "P14 - Scalability & Flexibility",
-        "amount": 0,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 62,
-        "label": "Data",
-        "tag": "Module",
-        "cluster": "Data",
-        "x": 0,
-        "y": -1400,
-        "score": 10
-    },
-    {
-        "key": 63,
-        "label": "Curation Rationale (Why choose this data)",
-        "tag": "Level 1",
-        "cluster": "Data",
-        "x": 0,
-        "y": -1350,
-        "related principle": "P4 - Logical Argumentation",
-        "amount": 0,
-        "recommend status": "Normal",
-        "score": 3
-    },
-    {
-        "key": 64,
-        "label": "Data Mission Statement",
-        "tag": "Level 1",
-        "cluster": "Data",
-        "x": 25.0,
-        "y": -1350,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 10,
-        "recommend status": "Normal",
-        "score": 3
-    },
-    {
-        "key": 65,
-        "label": "Data Version / Maintenance",
-        "tag": "Level 1",
-        "cluster": "Data",
-        "x": 50.0,
-        "y": -1350,
-        "related principle": "P9 - Timeliness",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 3
-    },
-    {
-        "key": 66,
-        "label": "Evaluation Datasets",
-        "tag": "Level 1",
-        "cluster": "Data",
-        "x": 75.0,
-        "y": -1350,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 32,
-        "recommend status": "Normal",
-        "score": 3
-    },
-    {
-        "key": 67,
-        "label": "Languages (Dataset)",
-        "tag": "Level 1",
-        "cluster": "Data",
-        "x": 100.0,
-        "y": -1350,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 43,
-        "recommend status": "Ignored",
-        "score": 0
-    },
-    {
-        "key": 68,
-        "label": "Manager Demographic (Speaker / Annotator  )",
-        "tag": "Level 1",
-        "cluster": "Data",
-        "x": 125.0,
-        "y": -1350,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 0,
-        "recommend status": "Normal",
-        "score": 3
-    },
-    {
-        "key": 69,
-        "label": "Preprocessing",
-        "tag": "Level 1",
-        "cluster": "Data",
-        "x": 150.0,
-        "y": -1350,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 64,
-        "recommend status": "Suggested",
-        "score": 4
-    },
-    {
-        "key": 70,
-        "label": "Pretrained Model",
-        "tag": "Level 2",
-        "cluster": "Data",
-        "x": 0,
-        "y": -1300,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 51,
-        "recommend status": "Normal",
-        "score": 3
-    },
-    {
-        "key": 71,
-        "label": "Labels",
-        "tag": "Level 2",
-        "cluster": "Data",
-        "x": 25.0,
-        "y": -1300,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 32,
-        "recommend status": "Normal",
-        "score": 3
-    },
-    {
-        "key": 72,
-        "label": "Tokenization",
-        "tag": "Level 2",
-        "cluster": "Data",
-        "x": 50.0,
-        "y": -1300,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 24,
-        "recommend status": "Normal",
-        "score": 3
-    },
-    {
-        "key": 73,
-        "label": "Masking Procedure",
-        "tag": "Level 2",
-        "cluster": "Data",
-        "x": 75.0,
-        "y": -1300,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 16,
-        "recommend status": "Normal",
-        "score": 3
-    },
-    {
-        "key": 74,
-        "label": "Pretraining Steps",
-        "tag": "Level 2",
-        "cluster": "Data",
-        "x": 100.0,
-        "y": -1300,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 5,
-        "recommend status": "Normal",
-        "score": 3
-    },
-    {
-        "key": 75,
-        "label": "Pretrained Model Report",
-        "tag": "Level 2",
-        "cluster": "Data",
-        "x": 125.0,
-        "y": -1300,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 3
-    },
-    {
-        "key": 76,
-        "label": "Pretraining Code",
-        "tag": "Level 2",
-        "cluster": "Data",
-        "x": 150.0,
-        "y": -1300,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Not Suggested",
-        "score": 2
-    },
-    {
-        "key": 77,
-        "label": "Provenance Appendix",
-        "tag": "Level 1",
-        "cluster": "Data",
-        "x": 175.0,
-        "y": -1350,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 0,
-        "recommend status": "Normal",
-        "score": 3
-    },
-    {
-        "key": 78,
-        "label": "Source Link",
-        "tag": "Level 1",
-        "cluster": "Data",
-        "x": 200.0,
-        "y": -1350,
-        "related principle": "P7 - Sourcing",
-        "amount": 11,
-        "recommend status": "Core",
-        "score": 5
-    },
-    {
-        "key": 79,
-        "label": "Text Characteristics",
-        "tag": "Level 1",
-        "cluster": "Data",
-        "x": 225.0,
-        "y": -1350,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 0,
-        "recommend status": "Not Suggested",
-        "score": 2
-    },
-    {
-        "key": 80,
-        "label": "Training Data",
-        "tag": "Level 1",
-        "cluster": "Data",
-        "x": 250.0,
-        "y": -1350,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 82,
-        "recommend status": "Suggested",
-        "score": 4
-    },
-    {
-        "key": 81,
-        "label": "Dataset Link",
-        "tag": "Level 2",
-        "cluster": "Data",
-        "x": 175.0,
-        "y": -1300,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 53,
-        "recommend status": "Normal",
-        "score": 3
-    },
-    {
-        "key": 82,
-        "label": "Dataset Size",
-        "tag": "Level 2",
-        "cluster": "Data",
-        "x": 200.0,
-        "y": -1300,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 52,
-        "recommend status": "Normal",
-        "score": 3
-    },
-    {
-        "key": 83,
-        "label": "Paper Info",
-        "tag": "Level 2",
-        "cluster": "Data",
-        "x": 225.0,
-        "y": -1300,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 50,
-        "recommend status": "Normal",
-        "score": 3
-    },
-    {
-        "key": 84,
-        "label": "Data Freshness",
-        "tag": "Level 2",
-        "cluster": "Data",
-        "x": 250.0,
-        "y": -1300,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 38,
-        "recommend status": "Suggested",
-        "score": 4
-    },
-    {
-        "key": 85,
-        "label": "Others",
-        "tag": "Level 1",
-        "cluster": "Data",
-        "x": 275.0,
-        "y": -1350,
-        "related principle": "P14 - Scalability & Flexibility",
-        "amount": 0,
-        "recommend status": "Normal",
-        "score": 3
-    },
-    {
-        "key": 86,
-        "label": "Training",
-        "tag": "Module",
-        "cluster": "Training",
-        "x": 0,
-        "y": -1675,
-        "score": 10
-    },
-    {
-        "key": 87,
-        "label": "Checkpoints",
-        "tag": "Level 1",
-        "cluster": "Training",
-        "x": 0,
-        "y": -1625,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 0,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 88,
-        "label": "Current Checkpoints",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 0,
-        "y": -1575,
-        "related principle": "P9 - Timeliness",
-        "amount": 8,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 89,
-        "label": "Original Checkpoints",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 25.0,
-        "y": -1575,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 90,
-        "label": "Intermediate Checkpoints",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 50.0,
-        "y": -1575,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 91,
-        "label": "Checkpoint Format",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 75.0,
-        "y": -1575,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 92,
-        "label": "Parameter Size",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 100.0,
-        "y": -1575,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 93,
-        "label": "Model",
-        "tag": "Level 1",
-        "cluster": "Training",
-        "x": 25.0,
-        "y": -1625,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 19,
-        "recommend status": "Core",
-        "score": 4
-    },
-    {
-        "key": 94,
-        "label": "Vocabulary",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 125.0,
-        "y": -1575,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 3,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 95,
-        "label": "Size",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 3,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 96,
-        "label": "Types",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 25.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 97,
-        "label": "Model Architecture",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 150.0,
-        "y": -1575,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 51,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 98,
-        "label": "Model Version",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 175.0,
-        "y": -1575,
-        "related principle": "P9 - Timeliness",
-        "amount": 26,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 99,
-        "label": "Layers",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 200.0,
-        "y": -1575,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 25,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 100,
-        "label": "Model Parameter Amount",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 225.0,
-        "y": -1575,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 25,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 101,
-        "label": "Dimension",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 250.0,
-        "y": -1575,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 19,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 102,
-        "label": "Variations",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 275.0,
-        "y": -1575,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 18,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 103,
-        "label": "Input",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 300.0,
-        "y": -1575,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 18,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 104,
-        "label": "Output",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 325.0,
-        "y": -1575,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 12,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 105,
-        "label": "Compute Infrastructure",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 350.0,
-        "y": -1575,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 12,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 106,
-        "label": "Head Parameters",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 375.0,
-        "y": -1575,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 12,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 107,
-        "label": "Hidden Size",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 400.0,
-        "y": -1575,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 12,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 108,
-        "label": "Model Links with Version",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 425.0,
-        "y": -1575,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 6,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 109,
-        "label": "Model IO",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 450.0,
-        "y": -1575,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 5,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 110,
-        "label": "Backbone Parameters",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 475.0,
-        "y": -1575,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 111,
-        "label": "GMACs",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 500.0,
-        "y": -1575,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 112,
-        "label": "Procedure",
-        "tag": "Level 1",
-        "cluster": "Training",
-        "x": 50.0,
-        "y": -1625,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 65,
-        "recommend status": "Core",
-        "score": 4
-    },
-    {
-        "key": 113,
-        "label": "Hardware",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 525.0,
-        "y": -1575,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 38,
-        "recommend status": "Suggested",
-        "score": 3
-    },
-    {
-        "key": 114,
-        "label": "TPU",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 50.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 0,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 115,
-        "label": "Amount",
-        "tag": "Level 4",
-        "cluster": "Training",
-        "x": 0,
-        "y": -1475,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 116,
-        "label": "Version",
-        "tag": "Level 4",
-        "cluster": "Training",
-        "x": 25.0,
-        "y": -1475,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 117,
-        "label": "GPUs",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 75.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 13,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 118,
-        "label": "CPU",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 100.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 119,
-        "label": "RAM",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 125.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 120,
-        "label": "Storage",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 150.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 121,
-        "label": "Training time",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 175.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 122,
-        "label": "Training FLOPS",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 200.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 123,
-        "label": "Drivers",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 225.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 0,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 124,
-        "label": "CUDA SDK versions",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 250.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 0,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 125,
-        "label": "Software",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 550.0,
-        "y": -1575,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 33,
-        "recommend status": "Core",
-        "score": 4
-    },
-    {
-        "key": 126,
-        "label": "Orchestration",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 275.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 127,
-        "label": "Neural Networks",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 300.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 128,
-        "label": "BP16",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 325.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 129,
-        "label": "FF16",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 350.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 0,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 130,
-        "label": "FF32",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 375.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 0,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 131,
-        "label": "Training Hyperparameters",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 575.0,
-        "y": -1575,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 62,
-        "recommend status": "Core",
-        "score": 4
-    },
-    {
-        "key": 132,
-        "label": "Batch",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 400.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 56,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 133,
-        "label": "Train Batch Size",
-        "tag": "Level 4",
-        "cluster": "Training",
-        "x": 50.0,
-        "y": -1475,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 134,
-        "label": "Eval Batch Size",
-        "tag": "Level 4",
-        "cluster": "Training",
-        "x": 75.0,
-        "y": -1475,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 135,
-        "label": "Epochs",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 425.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 136,
-        "label": "Num of Training Epochs\u00a0",
-        "tag": "Level 4",
-        "cluster": "Training",
-        "x": 100.0,
-        "y": -1475,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 137,
-        "label": "Activation",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 450.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 138,
-        "label": "Attention Heads",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 475.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 139,
-        "label": "Embedding Size",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 500.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 0,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 140,
-        "label": "Experts Utilization",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 525.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 141,
-        "label": "Image Map (Image)",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 550.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 10,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 142,
-        "label": "Input Channels",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 575.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 143,
-        "label": "Learning Rate",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 600.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 61,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 144,
-        "label": "LR Scheduler Type",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 625.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 145,
-        "label": "Min Duration Off (Voice)",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 650.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 146,
-        "label": "Min Duration On (Voice)",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 675.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 147,
-        "label": "Offset (Voice)",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 700.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 148,
-        "label": "Onset (Voice)",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 725.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 149,
-        "label": "Optimizer",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 750.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 55,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 150,
-        "label": "Precision",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 775.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 12,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 151,
-        "label": "Reconstruction Objective Loss Operation",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 800.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 0,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 152,
-        "label": "Seed",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 825.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 153,
-        "label": "Sequence Length Limit (Sentence)",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 850.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 49,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 154,
-        "label": "Steps Num",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 875.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 19,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 155,
-        "label": "Text Conditioning",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 900.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 156,
-        "label": "Text-Encoder (Text Prompt)",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 925.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 157,
-        "label": "Tokens",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 950.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 13,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 158,
-        "label": "Training Resolution (Image)",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 975.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 10,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 159,
-        "label": "Warmup",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 1000.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 12,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 160,
-        "label": "Weight decay",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 1025.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 12,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 161,
-        "label": "Z-loss",
-        "tag": "Level 3",
-        "cluster": "Training",
-        "x": 1050.0,
-        "y": -1525,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 162,
-        "label": "Diffuser",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 600.0,
-        "y": -1575,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 13,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 163,
-        "label": "Fine-Tuning",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 625.0,
-        "y": -1575,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 21,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 164,
-        "label": "Gradient Accumulations",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 650.0,
-        "y": -1575,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 9,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 165,
-        "label": "Instruction Format",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 675.0,
-        "y": -1575,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 166,
-        "label": "Sample Code",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 700.0,
-        "y": -1575,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 167,
-        "label": "Speeds, Sizes, Times",
-        "tag": "Level 1",
-        "cluster": "Training",
-        "x": 75.0,
-        "y": -1625,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 13,
-        "recommend status": "Suggested",
-        "score": 3
-    },
-    {
-        "key": 168,
-        "label": "Training Date",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 725.0,
-        "y": -1575,
-        "related principle": "P9 - Timeliness",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 169,
-        "label": "Checkpoint Size",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 750.0,
-        "y": -1575,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 170,
-        "label": "Throughput",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 775.0,
-        "y": -1575,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 171,
-        "label": "Number of Epochs",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 800.0,
-        "y": -1575,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 172,
-        "label": "Estimated Cost",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 825.0,
-        "y": -1575,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 173,
-        "label": "Server Location",
-        "tag": "Level 2",
-        "cluster": "Training",
-        "x": 850.0,
-        "y": -1575,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Ignored",
-        "score": 0
-    },
-    {
-        "key": 174,
-        "label": "Resources",
-        "tag": "Level 1",
-        "cluster": "Training",
-        "x": 100.0,
-        "y": -1625,
-        "related principle": "P7 - Sourcing",
-        "amount": 1,
-        "recommend status": "Suggested",
-        "score": 3
-    },
-    {
-        "key": 175,
-        "label": "Others",
-        "tag": "Level 1",
-        "cluster": "Training",
-        "x": 125.0,
-        "y": -1625,
-        "related principle": "P14 - Scalability & Flexibility",
-        "amount": 0,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 176,
-        "label": "Performance and Limitations",
-        "tag": "Module",
-        "cluster": "Performance and Limitations",
-        "x": 0,
-        "y": -2000,
-        "score": 10
-    },
-    {
-        "key": 177,
-        "label": "Approaches to Uncertainty & Variability",
-        "tag": "Level 1",
-        "cluster": "Performance and Limitations",
-        "x": 0,
-        "y": -1950,
-        "related principle": "P2 - Uncertainty",
-        "amount": 26,
-        "recommend status": "Suggested",
-        "score": 3
-    },
-    {
-        "key": 178,
-        "label": "Environmental Impact",
-        "tag": "Level 1",
-        "cluster": "Performance and Limitations",
-        "x": 25.0,
-        "y": -1950,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 59,
-        "recommend status": "Suggested",
-        "score": 3
-    },
-    {
-        "key": 179,
-        "label": "Estimated Carbon Emissions",
-        "tag": "Level 2",
-        "cluster": "Performance and Limitations",
-        "x": 0,
-        "y": -1900,
-        "related principle": "P5 - Ethics",
-        "amount": 59,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 180,
-        "label": "Hardware",
-        "tag": "Level 2",
-        "cluster": "Performance and Limitations",
-        "x": 25.0,
-        "y": -1900,
-        "related principle": "P5 - Ethics",
-        "amount": 52,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 181,
-        "label": "Runtime",
-        "tag": "Level 2",
-        "cluster": "Performance and Limitations",
-        "x": 50.0,
-        "y": -1900,
-        "related principle": "P5 - Ethics",
-        "amount": 52,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 182,
-        "label": "Cloud Provider",
-        "tag": "Level 2",
-        "cluster": "Performance and Limitations",
-        "x": 75.0,
-        "y": -1900,
-        "related principle": "P5 - Ethics",
-        "amount": 52,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 183,
-        "label": "Compute Region",
-        "tag": "Level 2",
-        "cluster": "Performance and Limitations",
-        "x": 100.0,
-        "y": -1900,
-        "related principle": "P5 - Ethics",
-        "amount": 52,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 184,
-        "label": "Estimated Electricity Usage",
-        "tag": "Level 2",
-        "cluster": "Performance and Limitations",
-        "x": 125.0,
-        "y": -1900,
-        "related principle": "P5 - Ethics",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 185,
-        "label": "Ethical Considerations",
-        "tag": "Level 1",
-        "cluster": "Performance and Limitations",
-        "x": 50.0,
-        "y": -1950,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 28,
-        "recommend status": "Core",
-        "score": 4
-    },
-    {
-        "key": 186,
-        "label": "Evaluation Approach (Ethics Aspect)",
-        "tag": "Level 2",
-        "cluster": "Performance and Limitations",
-        "x": 150.0,
-        "y": -1900,
-        "related principle": "P5 - Ethics",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 187,
-        "label": "Evaluation Results (Ethics Aspect)",
-        "tag": "Level 2",
-        "cluster": "Performance and Limitations",
-        "x": 175.0,
-        "y": -1900,
-        "related principle": "P5 - Ethics",
-        "amount": 1,
-        "recommend status": "Suggested",
-        "score": 3
-    },
-    {
-        "key": 188,
-        "label": "Evaluation",
-        "tag": "Level 1",
-        "cluster": "Performance and Limitations",
-        "x": 75.0,
-        "y": -1950,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 84,
-        "recommend status": "Suggested",
-        "score": 3
-    },
-    {
-        "key": 189,
-        "label": "Basic Standard",
-        "tag": "Level 2",
-        "cluster": "Performance and Limitations",
-        "x": 200.0,
-        "y": -1900,
-        "related principle": "P4 - Logical Argumentation",
-        "amount": 22,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 190,
-        "label": "Command",
-        "tag": "Level 2",
-        "cluster": "Performance and Limitations",
-        "x": 225.0,
-        "y": -1900,
-        "related principle": "P4 - Logical Argumentation",
-        "amount": 19,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 191,
-        "label": "Factors",
-        "tag": "Level 2",
-        "cluster": "Performance and Limitations",
-        "x": 250.0,
-        "y": -1900,
-        "related principle": "P4 - Logical Argumentation",
-        "amount": 39,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 192,
-        "label": "Metrics",
-        "tag": "Level 2",
-        "cluster": "Performance and Limitations",
-        "x": 275.0,
-        "y": -1900,
-        "related principle": "P4 - Logical Argumentation",
-        "amount": 28,
-        "recommend status": "Suggested",
-        "score": 3
-    },
-    {
-        "key": 193,
-        "label": "Results",
-        "tag": "Level 2",
-        "cluster": "Performance and Limitations",
-        "x": 300.0,
-        "y": -1900,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 59,
-        "recommend status": "Core",
-        "score": 4
-    },
-    {
-        "key": 194,
-        "label": "Benchmark",
-        "tag": "Level 3",
-        "cluster": "Performance and Limitations",
-        "x": 0,
-        "y": -1850,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 28,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 195,
-        "label": "Accuracy",
-        "tag": "Level 4",
-        "cluster": "Performance and Limitations",
-        "x": 0,
-        "y": -1800,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 10,
-        "recommend status": "Core",
-        "score": 4
-    },
-    {
-        "key": 196,
-        "label": "Benchmark Detail",
-        "tag": "Level 5",
-        "cluster": "Performance and Limitations",
-        "x": 0,
-        "y": -1750,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 197,
-        "label": "DER%",
-        "tag": "Level 5",
-        "cluster": "Performance and Limitations",
-        "x": 25.0,
-        "y": -1750,
-        "related principle": "P4 - Logical Argumentation",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 198,
-        "label": "FA%",
-        "tag": "Level 5",
-        "cluster": "Performance and Limitations",
-        "x": 50.0,
-        "y": -1750,
-        "related principle": "P4 - Logical Argumentation",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 199,
-        "label": "Miss%",
-        "tag": "Level 5",
-        "cluster": "Performance and Limitations",
-        "x": 75.0,
-        "y": -1750,
-        "related principle": "P4 - Logical Argumentation",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 200,
-        "label": "Conf%",
-        "tag": "Level 5",
-        "cluster": "Performance and Limitations",
-        "x": 100.0,
-        "y": -1750,
-        "related principle": "P4 - Logical Argumentation",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 201,
-        "label": "Expected output",
-        "tag": "Level 5",
-        "cluster": "Performance and Limitations",
-        "x": 125.0,
-        "y": -1750,
-        "related principle": "P4 - Logical Argumentation",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 202,
-        "label": "File-level evaluation",
-        "tag": "Level 5",
-        "cluster": "Performance and Limitations",
-        "x": 150.0,
-        "y": -1750,
-        "related principle": "P4 - Logical Argumentation",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 203,
-        "label": "Real-Time Factor",
-        "tag": "Level 4",
-        "cluster": "Performance and Limitations",
-        "x": 25.0,
-        "y": -1800,
-        "related principle": "P4 - Logical Argumentation",
-        "amount": 11,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 204,
-        "label": "Grades on Languages",
-        "tag": "Level 3",
-        "cluster": "Performance and Limitations",
-        "x": 25.0,
-        "y": -1850,
-        "related principle": "P4 - Logical Argumentation",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 205,
-        "label": "Running Time",
-        "tag": "Level 2",
-        "cluster": "Performance and Limitations",
-        "x": 325.0,
-        "y": -1900,
-        "related principle": "P4 - Logical Argumentation",
-        "amount": 16,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 206,
-        "label": "Summary",
-        "tag": "Level 2",
-        "cluster": "Performance and Limitations",
-        "x": 350.0,
-        "y": -1900,
-        "related principle": "P10 - Subjective Info",
-        "amount": 0,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 207,
-        "label": "Tasks",
-        "tag": "Level 2",
-        "cluster": "Performance and Limitations",
-        "x": 375.0,
-        "y": -1900,
-        "related principle": "P4 - Logical Argumentation",
-        "amount": 21,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 208,
-        "label": "Testing Data",
-        "tag": "Level 2",
-        "cluster": "Performance and Limitations",
-        "x": 400.0,
-        "y": -1900,
-        "related principle": "P4 - Logical Argumentation",
-        "amount": 39,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 209,
-        "label": "Initial Results",
-        "tag": "Level 1",
-        "cluster": "Performance and Limitations",
-        "x": 100.0,
-        "y": -1950,
-        "related principle": "P8 - Consistency",
-        "amount": 1,
-        "recommend status": "Not Suggested",
-        "score": 1
-    },
-    {
-        "key": 210,
-        "label": "Limitations and Bias",
-        "tag": "Level 1",
-        "cluster": "Performance and Limitations",
-        "x": 125.0,
-        "y": -1950,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 80,
-        "recommend status": "Suggested",
-        "score": 3
-    },
-    {
-        "key": 211,
-        "label": "Limitation",
-        "tag": "Level 2",
-        "cluster": "Performance and Limitations",
-        "x": 425.0,
-        "y": -1900,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 0,
-        "recommend status": "Core",
-        "score": 4
-    },
-    {
-        "key": 212,
-        "label": "Usage Limitation",
-        "tag": "Level 3",
-        "cluster": "Performance and Limitations",
-        "x": 50.0,
-        "y": -1850,
-        "related principle": "P2 - Uncertainty",
-        "amount": 51,
-        "recommend status": "Suggested",
-        "score": 3
-    },
-    {
-        "key": 213,
-        "label": "Dataset Limitations",
-        "tag": "Level 3",
-        "cluster": "Performance and Limitations",
-        "x": 75.0,
-        "y": -1850,
-        "related principle": "P2 - Uncertainty",
-        "amount": 1,
-        "recommend status": "Suggested",
-        "score": 3
-    },
-    {
-        "key": 214,
-        "label": "Performance Limitations",
-        "tag": "Level 3",
-        "cluster": "Performance and Limitations",
-        "x": 100.0,
-        "y": -1850,
-        "related principle": "P2 - Uncertainty",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 215,
-        "label": "Safety Module",
-        "tag": "Level 3",
-        "cluster": "Performance and Limitations",
-        "x": 125.0,
-        "y": -1850,
-        "related principle": "P2 - Uncertainty",
-        "amount": 1,
-        "recommend status": "Suggested",
-        "score": 3
-    },
-    {
-        "key": 216,
-        "label": "Bias & Fairness",
-        "tag": "Level 2",
-        "cluster": "Performance and Limitations",
-        "x": 450.0,
-        "y": -1900,
-        "related principle": "P2 - Uncertainty",
-        "amount": 51,
-        "recommend status": "Core",
-        "score": 4
-    },
-    {
-        "key": 217,
-        "label": "Model Examination",
-        "tag": "Level 1",
-        "cluster": "Performance and Limitations",
-        "x": 150.0,
-        "y": -1950,
-        "related principle": "P8 - Consistency",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 218,
-        "label": "Model Result Comparison with Family",
-        "tag": "Level 1",
-        "cluster": "Performance and Limitations",
-        "x": 175.0,
-        "y": -1950,
-        "related principle": "P8 - Consistency",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 219,
-        "label": "Model Safety",
-        "tag": "Level 1",
-        "cluster": "Performance and Limitations",
-        "x": 200.0,
-        "y": -1950,
-        "related principle": "P5 - Ethics",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 220,
-        "label": "Troubleshooting",
-        "tag": "Level 1",
-        "cluster": "Performance and Limitations",
-        "x": 225.0,
-        "y": -1950,
-        "related principle": "P11 - Alternative Plan",
-        "amount": 26,
-        "recommend status": "Suggested",
-        "score": 3
-    },
-    {
-        "key": 221,
-        "label": "Others",
-        "tag": "Level 1",
-        "cluster": "Performance and Limitations",
-        "x": 250.0,
-        "y": -1950,
-        "related principle": "P14 - Scalability & Flexibility",
-        "amount": 0,
-        "recommend status": "Normal",
-        "score": 2
-    },
-    {
-        "key": 222,
-        "label": "Community Engagement and Further Insights",
-        "tag": "Module",
-        "cluster": "Community Engagement and Further Insights",
-        "x": 0,
-        "y": -2175,
-        "score": 10
-    },
-    {
-        "key": 223,
-        "label": "Feedback",
-        "tag": "Level 1",
-        "cluster": "Community Engagement and Further Insights",
-        "x": 0,
-        "y": -2125,
-        "related principle": "P13 - Interactive",
-        "amount": 0,
-        "recommend status": "Suggested",
-        "score": 5
-    },
-    {
-        "key": 224,
-        "label": "Question & Comment Method ",
-        "tag": "Level 2",
-        "cluster": "Community Engagement and Further Insights",
-        "x": 0,
-        "y": -2075,
-        "related principle": "P13 - Interactive",
-        "amount": 3,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 225,
-        "label": "Contact Detail",
-        "tag": "Level 2",
-        "cluster": "Community Engagement and Further Insights",
-        "x": 25.0,
-        "y": -2075,
-        "related principle": "P13 - Interactive",
-        "amount": 5,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 226,
-        "label": "Broader Implications",
-        "tag": "Level 1",
-        "cluster": "Community Engagement and Further Insights",
-        "x": 25.0,
-        "y": -2125,
-        "related principle": "P3 - User / Usage",
-        "amount": 0,
-        "recommend status": "Suggested",
-        "score": 5
-    },
-    {
-        "key": 227,
-        "label": "Future Research",
-        "tag": "Level 2",
-        "cluster": "Community Engagement and Further Insights",
-        "x": 50.0,
-        "y": -2075,
-        "related principle": "P14 - Scalability & Flexibility",
-        "amount": 2,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 228,
-        "label": "Lessons",
-        "tag": "Level 2",
-        "cluster": "Community Engagement and Further Insights",
-        "x": 75.0,
-        "y": -2075,
-        "related principle": "P10 - Subjective Info",
-        "amount": 1,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 229,
-        "label": "More Info",
-        "tag": "Level 1",
-        "cluster": "Community Engagement and Further Insights",
-        "x": 50.0,
-        "y": -2125,
-        "related principle": "P14 - Scalability & Flexibility",
-        "amount": 0,
-        "recommend status": "Normal",
-        "score": 4
-    },
-    {
-        "key": 230,
-        "label": "Dataset Creation",
-        "tag": "Level 2",
-        "cluster": "Community Engagement and Further Insights",
-        "x": 100.0,
-        "y": -2075,
-        "related principle": "P1 - Rigorous & Scientific",
-        "amount": 4,
-        "recommend status": "Ignored",
-        "score": 0
-    },
-    {
-        "key": 231,
-        "label": "Reproducible Research",
-        "tag": "Level 2",
-        "cluster": "Community Engagement and Further Insights",
-        "x": 125.0,
-        "y": -2075,
-        "related principle": "P14 - Scalability & Flexibility",
-        "amount": 7,
-        "recommend status": "Normal",
-        "score": 4
-    }
-],
+        {
+            "key": 1,
+            "label": "Model Detail",
+            "tag": "Model Detail",
+            "cluster": "Module",
+            "x": 0,
+            "y": -1050,
+            "score": 10
+        },
+        {
+            "key": 2,
+            "label": "Documentation and Authority",
+            "tag": "Model Detail",
+            "cluster": "Level 1",
+            "x": 0,
+            "y": -1000,
+            "related principle": "P7 - Sourcing",
+            "amount": 0,
+            "recommend status": "Suggested",
+            "score": 5
+        },
+        {
+            "key": 3,
+            "label": "Citation",
+            "tag": "Model Detail",
+            "cluster": "Level 2",
+            "x": 0,
+            "y": -950,
+            "related principle": "P7 - Sourcing",
+            "amount": 87,
+            "recommend status": "Core",
+            "score": 6
+        },
+        {
+            "key": 4,
+            "label": "License",
+            "tag": "Model Detail",
+            "cluster": "Level 2",
+            "x": 25.0,
+            "y": -950,
+            "related principle": "P7 - Sourcing",
+            "amount": 72,
+            "recommend status": "Core",
+            "score": 6
+        },
+        {
+            "key": 5,
+            "label": "Disclaimer",
+            "tag": "Model Detail",
+            "cluster": "Level 2",
+            "x": 50.0,
+            "y": -950,
+            "related principle": "P7 - Sourcing",
+            "amount": 79,
+            "recommend status": "Suggested",
+            "score": 5
+        },
+        {
+            "key": 6,
+            "label": "Terms of Use",
+            "tag": "Model Detail",
+            "cluster": "Level 2",
+            "x": 75.0,
+            "y": -950,
+            "related principle": "P7 - Sourcing",
+            "amount": 9,
+            "recommend status": "Core",
+            "score": 6
+        },
+        {
+            "key": 7,
+            "label": "Research Paper / Demo",
+            "tag": "Model Detail",
+            "cluster": "Level 2",
+            "x": 100.0,
+            "y": -950,
+            "related principle": "P12 - Visualization",
+            "amount": 82,
+            "recommend status": "Suggested",
+            "score": 5
+        },
+        {
+            "key": 8,
+            "label": "Document Info",
+            "tag": "Model Detail",
+            "cluster": "Level 2",
+            "x": 125.0,
+            "y": -950,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 60,
+            "recommend status": "Suggested",
+            "score": 5
+        },
+        {
+            "key": 9,
+            "label": "Community License Agreement",
+            "tag": "Model Detail",
+            "cluster": "Level 2",
+            "x": 150.0,
+            "y": -950,
+            "related principle": "P7 - Sourcing",
+            "amount": 9,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 10,
+            "label": "Acknowledgement",
+            "tag": "Model Detail",
+            "cluster": "Level 2",
+            "x": 175.0,
+            "y": -950,
+            "related principle": "P7 - Sourcing",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 11,
+            "label": "Development and Contribution",
+            "tag": "Model Detail",
+            "cluster": "Level 1",
+            "x": 25.0,
+            "y": -1000,
+            "related principle": "P7 - Sourcing",
+            "amount": 0,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 12,
+            "label": "Developed By",
+            "tag": "Model Detail",
+            "cluster": "Level 2",
+            "x": 200.0,
+            "y": -950,
+            "related principle": "P7 - Sourcing",
+            "amount": 76,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 13,
+            "label": "Funded By",
+            "tag": "Model Detail",
+            "cluster": "Level 2",
+            "x": 225.0,
+            "y": -950,
+            "related principle": "P7 - Sourcing",
+            "amount": 54,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 14,
+            "label": "Model Card Author",
+            "tag": "Model Detail",
+            "cluster": "Level 2",
+            "x": 250.0,
+            "y": -950,
+            "related principle": "P7 - Sourcing",
+            "amount": 55,
+            "recommend status": "Core",
+            "score": 6
+        },
+        {
+            "key": 15,
+            "label": "Model Specifics",
+            "tag": "Model Detail",
+            "cluster": "Level 1",
+            "x": 50.0,
+            "y": -1000,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 0,
+            "recommend status": "Suggested",
+            "score": 5
+        },
+        {
+            "key": 16,
+            "label": "Objective Function",
+            "tag": "Model Detail",
+            "cluster": "Level 2",
+            "x": 275.0,
+            "y": -950,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 86,
+            "recommend status": "Suggested",
+            "score": 5
+        },
+        {
+            "key": 17,
+            "label": "Model Type",
+            "tag": "Model Detail",
+            "cluster": "Level 2",
+            "x": 300.0,
+            "y": -950,
+            "related principle": "P7 - Sourcing",
+            "amount": 76,
+            "recommend status": "Core",
+            "score": 6
+        },
+        {
+            "key": 18,
+            "label": "Fine-tuned from Model",
+            "tag": "Model Detail",
+            "cluster": "Level 2",
+            "x": 325.0,
+            "y": -950,
+            "related principle": "P4 - Logical Argumentation",
+            "amount": 57,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 19,
+            "label": "Family of Models",
+            "tag": "Model Detail",
+            "cluster": "Level 2",
+            "x": 350.0,
+            "y": -950,
+            "related principle": "P7 - Sourcing",
+            "amount": 78,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 20,
+            "label": "Operational Details",
+            "tag": "Model Detail",
+            "cluster": "Level 1",
+            "x": 75.0,
+            "y": -1000,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 0,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 21,
+            "label": "Repo Link",
+            "tag": "Model Detail",
+            "cluster": "Level 2",
+            "x": 375.0,
+            "y": -950,
+            "related principle": "P7 - Sourcing",
+            "amount": 75,
+            "recommend status": "Core",
+            "score": 6
+        },
+        {
+            "key": 22,
+            "label": "Official Page Link",
+            "tag": "Model Detail",
+            "cluster": "Level 2",
+            "x": 400.0,
+            "y": -950,
+            "related principle": "P12 - Visualization",
+            "amount": 54,
+            "recommend status": "Suggested",
+            "score": 5
+        },
+        {
+            "key": 23,
+            "label": "Release Date",
+            "tag": "Model Detail",
+            "cluster": "Level 2",
+            "x": 425.0,
+            "y": -950,
+            "related principle": "P9 - Timeliness",
+            "amount": 12,
+            "recommend status": "Core",
+            "score": 6
+        },
+        {
+            "key": 24,
+            "label": "Training Date",
+            "tag": "Model Detail",
+            "cluster": "Level 2",
+            "x": 450.0,
+            "y": -950,
+            "related principle": "P9 - Timeliness",
+            "amount": 65,
+            "recommend status": "Core",
+            "score": 6
+        },
+        {
+            "key": 25,
+            "label": "Model Update Info",
+            "tag": "Model Detail",
+            "cluster": "Level 2",
+            "x": 475.0,
+            "y": -950,
+            "related principle": "P9 - Timeliness",
+            "amount": 4,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 26,
+            "label": "Model Updated Time",
+            "tag": "Model Detail",
+            "cluster": "Level 2",
+            "x": 500.0,
+            "y": -950,
+            "related principle": "P9 - Timeliness",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 27,
+            "label": "Language",
+            "tag": "Model Detail",
+            "cluster": "Level 2",
+            "x": 525.0,
+            "y": -950,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 59,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 28,
+            "label": "Warning",
+            "tag": "Model Detail",
+            "cluster": "Level 2",
+            "x": 550.0,
+            "y": -950,
+            "related principle": "P10 - Subjective Info",
+            "amount": 6,
+            "recommend status": "Core",
+            "score": 6
+        },
+        {
+            "key": 29,
+            "label": "Appendix",
+            "tag": "Model Detail",
+            "cluster": "Level 2",
+            "x": 575.0,
+            "y": -950,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 5,
+            "recommend status": "Ignored",
+            "score": 0
+        },
+        {
+            "key": 30,
+            "label": "Utility and Performance",
+            "tag": "Model Detail",
+            "cluster": "Level 1",
+            "x": 100.0,
+            "y": -1000,
+            "related principle": "P3 - User / Usage",
+            "amount": 0,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 31,
+            "label": "Requirement",
+            "tag": "Model Detail",
+            "cluster": "Level 2",
+            "x": 600.0,
+            "y": -950,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 65,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 32,
+            "label": "Technical Specifications",
+            "tag": "Model Detail",
+            "cluster": "Level 2",
+            "x": 625.0,
+            "y": -950,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 10,
+            "recommend status": "Suggested",
+            "score": 5
+        },
+        {
+            "key": 33,
+            "label": "Sample Generations",
+            "tag": "Model Detail",
+            "cluster": "Level 2",
+            "x": 650.0,
+            "y": -950,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 11,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 34,
+            "label": "Context and Purpose",
+            "tag": "Model Detail",
+            "cluster": "Level 1",
+            "x": 125.0,
+            "y": -1000,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 0,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 35,
+            "label": "Background",
+            "tag": "Model Detail",
+            "cluster": "Level 2",
+            "x": 675.0,
+            "y": -950,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 18,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 36,
+            "label": "Motivation",
+            "tag": "Model Detail",
+            "cluster": "Level 2",
+            "x": 700.0,
+            "y": -950,
+            "related principle": "P4 - Logical Argumentation",
+            "amount": 18,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 37,
+            "label": "Benefit",
+            "tag": "Model Detail",
+            "cluster": "Level 2",
+            "x": 725.0,
+            "y": -950,
+            "related principle": "P4 - Logical Argumentation",
+            "amount": 18,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 38,
+            "label": "Status",
+            "tag": "Model Detail",
+            "cluster": "Level 2",
+            "x": 750.0,
+            "y": -950,
+            "related principle": "P9 - Timeliness",
+            "amount": 12,
+            "recommend status": "Core",
+            "score": 6
+        },
+        {
+            "key": 39,
+            "label": "Others",
+            "tag": "Model Detail",
+            "cluster": "Level 1",
+            "x": 150.0,
+            "y": -1000,
+            "related principle": "P14 - Scalability & Flexibility",
+            "amount": 0,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 40,
+            "label": "Model Use",
+            "tag": "Model Use",
+            "cluster": "Module",
+            "x": 0,
+            "y": -1225,
+            "score": 10
+        },
+        {
+            "key": 41,
+            "label": "Alternative Plan",
+            "tag": "Model Use",
+            "cluster": "Level 1",
+            "x": 0,
+            "y": -1175,
+            "related principle": "P11 - Alternative Plan",
+            "amount": 0,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 42,
+            "label": "Glossary and Calculations",
+            "tag": "Model Use",
+            "cluster": "Level 1",
+            "x": 25.0,
+            "y": -1175,
+            "related principle": "P6 - Unambiguous",
+            "amount": 18,
+            "recommend status": "Suggested",
+            "score": 5
+        },
+        {
+            "key": 43,
+            "label": "Intended Use",
+            "tag": "Model Use",
+            "cluster": "Level 1",
+            "x": 50.0,
+            "y": -1175,
+            "related principle": "P3 - User / Usage",
+            "amount": 86,
+            "recommend status": "Suggested",
+            "score": 5
+        },
+        {
+            "key": 44,
+            "label": "Direct Use",
+            "tag": "Model Use",
+            "cluster": "Level 2",
+            "x": 0,
+            "y": -1125,
+            "related principle": "P3 - User / Usage",
+            "amount": 64,
+            "recommend status": "Core",
+            "score": 6
+        },
+        {
+            "key": 45,
+            "label": "Downstream Use",
+            "tag": "Model Use",
+            "cluster": "Level 2",
+            "x": 25.0,
+            "y": -1125,
+            "related principle": "P3 - User / Usage",
+            "amount": 50,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 46,
+            "label": "Primary Intended Use",
+            "tag": "Model Use",
+            "cluster": "Level 2",
+            "x": 50.0,
+            "y": -1125,
+            "related principle": "P3 - User / Usage",
+            "amount": 74,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 47,
+            "label": "Secondary Intended Uses",
+            "tag": "Model Use",
+            "cluster": "Level 2",
+            "x": 75.0,
+            "y": -1125,
+            "related principle": "P3 - User / Usage",
+            "amount": 11,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 48,
+            "label": "Intended User",
+            "tag": "Model Use",
+            "cluster": "Level 1",
+            "x": 75.0,
+            "y": -1175,
+            "related principle": "P3 - User / Usage",
+            "amount": 21,
+            "recommend status": "Suggested",
+            "score": 5
+        },
+        {
+            "key": 49,
+            "label": "Direct User",
+            "tag": "Model Use",
+            "cluster": "Level 2",
+            "x": 100.0,
+            "y": -1125,
+            "related principle": "P3 - User / Usage",
+            "amount": 11,
+            "recommend status": "Suggested",
+            "score": 5
+        },
+        {
+            "key": 50,
+            "label": "Indirect User",
+            "tag": "Model Use",
+            "cluster": "Level 2",
+            "x": 125.0,
+            "y": -1125,
+            "related principle": "P3 - User / Usage",
+            "amount": 7,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 51,
+            "label": "Others Affected (Parties Prenantes) ",
+            "tag": "Model Use",
+            "cluster": "Level 2",
+            "x": 150.0,
+            "y": -1125,
+            "related principle": "P3 - User / Usage",
+            "amount": 6,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 52,
+            "label": "Key Function Example",
+            "tag": "Model Use",
+            "cluster": "Level 1",
+            "x": 100.0,
+            "y": -1175,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 63,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 53,
+            "label": "Function Code",
+            "tag": "Model Use",
+            "cluster": "Level 2",
+            "x": 175.0,
+            "y": -1125,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 74,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 54,
+            "label": "Documentation",
+            "tag": "Model Use",
+            "cluster": "Level 2",
+            "x": 200.0,
+            "y": -1125,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 4,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 55,
+            "label": "Data",
+            "tag": "Model Use",
+            "cluster": "Level 2",
+            "x": 225.0,
+            "y": -1125,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 3,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 56,
+            "label": "Output",
+            "tag": "Model Use",
+            "cluster": "Level 2",
+            "x": 250.0,
+            "y": -1125,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 57,
+            "label": "Misuse and Malicious Use",
+            "tag": "Model Use",
+            "cluster": "Level 1",
+            "x": 125.0,
+            "y": -1175,
+            "related principle": "P3 - User / Usage",
+            "amount": 17,
+            "recommend status": "Suggested",
+            "score": 5
+        },
+        {
+            "key": 58,
+            "label": "Out-of-Scope Use",
+            "tag": "Model Use",
+            "cluster": "Level 1",
+            "x": 150.0,
+            "y": -1175,
+            "related principle": "P3 - User / Usage",
+            "amount": 68,
+            "recommend status": "Suggested",
+            "score": 5
+        },
+        {
+            "key": 59,
+            "label": "Recommendation",
+            "tag": "Model Use",
+            "cluster": "Level 1",
+            "x": 175.0,
+            "y": -1175,
+            "related principle": "P10 - Subjective Info",
+            "amount": 62,
+            "recommend status": "Suggested",
+            "score": 5
+        },
+        {
+            "key": 60,
+            "label": "Use Guideline",
+            "tag": "Model Use",
+            "cluster": "Level 1",
+            "x": 200.0,
+            "y": -1175,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 104,
+            "recommend status": "Core",
+            "score": 6
+        },
+        {
+            "key": 61,
+            "label": "Others",
+            "tag": "Model Use",
+            "cluster": "Level 1",
+            "x": 225.0,
+            "y": -1175,
+            "related principle": "P14 - Scalability & Flexibility",
+            "amount": 0,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 62,
+            "label": "Data",
+            "tag": "Data",
+            "cluster": "Module",
+            "x": 0,
+            "y": -1400,
+            "score": 10
+        },
+        {
+            "key": 63,
+            "label": "Curation Rationale (Why choose this data)",
+            "tag": "Data",
+            "cluster": "Level 1",
+            "x": 0,
+            "y": -1350,
+            "related principle": "P4 - Logical Argumentation",
+            "amount": 0,
+            "recommend status": "Normal",
+            "score": 3
+        },
+        {
+            "key": 64,
+            "label": "Data Mission Statement",
+            "tag": "Data",
+            "cluster": "Level 1",
+            "x": 25.0,
+            "y": -1350,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 10,
+            "recommend status": "Normal",
+            "score": 3
+        },
+        {
+            "key": 65,
+            "label": "Data Version / Maintenance",
+            "tag": "Data",
+            "cluster": "Level 1",
+            "x": 50.0,
+            "y": -1350,
+            "related principle": "P9 - Timeliness",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 3
+        },
+        {
+            "key": 66,
+            "label": "Evaluation Datasets",
+            "tag": "Data",
+            "cluster": "Level 1",
+            "x": 75.0,
+            "y": -1350,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 32,
+            "recommend status": "Normal",
+            "score": 3
+        },
+        {
+            "key": 67,
+            "label": "Languages (Dataset)",
+            "tag": "Data",
+            "cluster": "Level 1",
+            "x": 100.0,
+            "y": -1350,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 43,
+            "recommend status": "Ignored",
+            "score": 0
+        },
+        {
+            "key": 68,
+            "label": "Manager Demographic (Speaker / Annotator  )",
+            "tag": "Data",
+            "cluster": "Level 1",
+            "x": 125.0,
+            "y": -1350,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 0,
+            "recommend status": "Normal",
+            "score": 3
+        },
+        {
+            "key": 69,
+            "label": "Preprocessing",
+            "tag": "Data",
+            "cluster": "Level 1",
+            "x": 150.0,
+            "y": -1350,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 64,
+            "recommend status": "Suggested",
+            "score": 4
+        },
+        {
+            "key": 70,
+            "label": "Pretrained Model",
+            "tag": "Data",
+            "cluster": "Level 2",
+            "x": 0,
+            "y": -1300,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 51,
+            "recommend status": "Normal",
+            "score": 3
+        },
+        {
+            "key": 71,
+            "label": "Labels",
+            "tag": "Data",
+            "cluster": "Level 2",
+            "x": 25.0,
+            "y": -1300,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 32,
+            "recommend status": "Normal",
+            "score": 3
+        },
+        {
+            "key": 72,
+            "label": "Tokenization",
+            "tag": "Data",
+            "cluster": "Level 2",
+            "x": 50.0,
+            "y": -1300,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 24,
+            "recommend status": "Normal",
+            "score": 3
+        },
+        {
+            "key": 73,
+            "label": "Masking Procedure",
+            "tag": "Data",
+            "cluster": "Level 2",
+            "x": 75.0,
+            "y": -1300,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 16,
+            "recommend status": "Normal",
+            "score": 3
+        },
+        {
+            "key": 74,
+            "label": "Pretraining Steps",
+            "tag": "Data",
+            "cluster": "Level 2",
+            "x": 100.0,
+            "y": -1300,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 5,
+            "recommend status": "Normal",
+            "score": 3
+        },
+        {
+            "key": 75,
+            "label": "Pretrained Model Report",
+            "tag": "Data",
+            "cluster": "Level 2",
+            "x": 125.0,
+            "y": -1300,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 3
+        },
+        {
+            "key": 76,
+            "label": "Pretraining Code",
+            "tag": "Data",
+            "cluster": "Level 2",
+            "x": 150.0,
+            "y": -1300,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Not Suggested",
+            "score": 2
+        },
+        {
+            "key": 77,
+            "label": "Provenance Appendix",
+            "tag": "Data",
+            "cluster": "Level 1",
+            "x": 175.0,
+            "y": -1350,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 0,
+            "recommend status": "Normal",
+            "score": 3
+        },
+        {
+            "key": 78,
+            "label": "Source Link",
+            "tag": "Data",
+            "cluster": "Level 1",
+            "x": 200.0,
+            "y": -1350,
+            "related principle": "P7 - Sourcing",
+            "amount": 11,
+            "recommend status": "Core",
+            "score": 5
+        },
+        {
+            "key": 79,
+            "label": "Text Characteristics",
+            "tag": "Data",
+            "cluster": "Level 1",
+            "x": 225.0,
+            "y": -1350,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 0,
+            "recommend status": "Not Suggested",
+            "score": 2
+        },
+        {
+            "key": 80,
+            "label": "Training Data",
+            "tag": "Data",
+            "cluster": "Level 1",
+            "x": 250.0,
+            "y": -1350,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 82,
+            "recommend status": "Suggested",
+            "score": 4
+        },
+        {
+            "key": 81,
+            "label": "Dataset Link",
+            "tag": "Data",
+            "cluster": "Level 2",
+            "x": 175.0,
+            "y": -1300,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 53,
+            "recommend status": "Normal",
+            "score": 3
+        },
+        {
+            "key": 82,
+            "label": "Dataset Size",
+            "tag": "Data",
+            "cluster": "Level 2",
+            "x": 200.0,
+            "y": -1300,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 52,
+            "recommend status": "Normal",
+            "score": 3
+        },
+        {
+            "key": 83,
+            "label": "Paper Info",
+            "tag": "Data",
+            "cluster": "Level 2",
+            "x": 225.0,
+            "y": -1300,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 50,
+            "recommend status": "Normal",
+            "score": 3
+        },
+        {
+            "key": 84,
+            "label": "Data Freshness",
+            "tag": "Data",
+            "cluster": "Level 2",
+            "x": 250.0,
+            "y": -1300,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 38,
+            "recommend status": "Suggested",
+            "score": 4
+        },
+        {
+            "key": 85,
+            "label": "Others",
+            "tag": "Data",
+            "cluster": "Level 1",
+            "x": 275.0,
+            "y": -1350,
+            "related principle": "P14 - Scalability & Flexibility",
+            "amount": 0,
+            "recommend status": "Normal",
+            "score": 3
+        },
+        {
+            "key": 86,
+            "label": "Training",
+            "tag": "Training",
+            "cluster": "Module",
+            "x": 0,
+            "y": -1675,
+            "score": 10
+        },
+        {
+            "key": 87,
+            "label": "Checkpoints",
+            "tag": "Training",
+            "cluster": "Level 1",
+            "x": 0,
+            "y": -1625,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 0,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 88,
+            "label": "Current Checkpoints",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 0,
+            "y": -1575,
+            "related principle": "P9 - Timeliness",
+            "amount": 8,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 89,
+            "label": "Original Checkpoints",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 25.0,
+            "y": -1575,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 90,
+            "label": "Intermediate Checkpoints",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 50.0,
+            "y": -1575,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 91,
+            "label": "Checkpoint Format",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 75.0,
+            "y": -1575,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 92,
+            "label": "Parameter Size",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 100.0,
+            "y": -1575,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 93,
+            "label": "Model",
+            "tag": "Training",
+            "cluster": "Level 1",
+            "x": 25.0,
+            "y": -1625,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 19,
+            "recommend status": "Core",
+            "score": 4
+        },
+        {
+            "key": 94,
+            "label": "Vocabulary",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 125.0,
+            "y": -1575,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 3,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 95,
+            "label": "Size",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 3,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 96,
+            "label": "Types",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 25.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 97,
+            "label": "Model Architecture",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 150.0,
+            "y": -1575,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 51,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 98,
+            "label": "Model Version",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 175.0,
+            "y": -1575,
+            "related principle": "P9 - Timeliness",
+            "amount": 26,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 99,
+            "label": "Layers",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 200.0,
+            "y": -1575,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 25,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 100,
+            "label": "Model Parameter Amount",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 225.0,
+            "y": -1575,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 25,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 101,
+            "label": "Dimension",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 250.0,
+            "y": -1575,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 19,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 102,
+            "label": "Variations",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 275.0,
+            "y": -1575,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 18,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 103,
+            "label": "Input",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 300.0,
+            "y": -1575,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 18,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 104,
+            "label": "Output",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 325.0,
+            "y": -1575,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 12,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 105,
+            "label": "Compute Infrastructure",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 350.0,
+            "y": -1575,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 12,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 106,
+            "label": "Head Parameters",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 375.0,
+            "y": -1575,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 12,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 107,
+            "label": "Hidden Size",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 400.0,
+            "y": -1575,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 12,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 108,
+            "label": "Model Links with Version",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 425.0,
+            "y": -1575,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 6,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 109,
+            "label": "Model IO",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 450.0,
+            "y": -1575,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 5,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 110,
+            "label": "Backbone Parameters",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 475.0,
+            "y": -1575,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 111,
+            "label": "GMACs",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 500.0,
+            "y": -1575,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 112,
+            "label": "Procedure",
+            "tag": "Training",
+            "cluster": "Level 1",
+            "x": 50.0,
+            "y": -1625,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 65,
+            "recommend status": "Core",
+            "score": 4
+        },
+        {
+            "key": 113,
+            "label": "Hardware",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 525.0,
+            "y": -1575,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 38,
+            "recommend status": "Suggested",
+            "score": 3
+        },
+        {
+            "key": 114,
+            "label": "TPU",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 50.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 0,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 115,
+            "label": "Amount",
+            "tag": "Training",
+            "cluster": "Level 4",
+            "x": 0,
+            "y": -1475,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 116,
+            "label": "Version",
+            "tag": "Training",
+            "cluster": "Level 4",
+            "x": 25.0,
+            "y": -1475,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 117,
+            "label": "GPUs",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 75.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 13,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 118,
+            "label": "CPU",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 100.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 119,
+            "label": "RAM",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 125.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 120,
+            "label": "Storage",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 150.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 121,
+            "label": "Training time",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 175.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 122,
+            "label": "Training FLOPS",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 200.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 123,
+            "label": "Drivers",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 225.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 0,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 124,
+            "label": "CUDA SDK versions",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 250.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 0,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 125,
+            "label": "Software",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 550.0,
+            "y": -1575,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 33,
+            "recommend status": "Core",
+            "score": 4
+        },
+        {
+            "key": 126,
+            "label": "Orchestration",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 275.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 127,
+            "label": "Neural Networks",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 300.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 128,
+            "label": "BP16",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 325.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 129,
+            "label": "FF16",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 350.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 0,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 130,
+            "label": "FF32",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 375.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 0,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 131,
+            "label": "Training Hyperparameters",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 575.0,
+            "y": -1575,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 62,
+            "recommend status": "Core",
+            "score": 4
+        },
+        {
+            "key": 132,
+            "label": "Batch",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 400.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 56,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 133,
+            "label": "Train Batch Size",
+            "tag": "Training",
+            "cluster": "Level 4",
+            "x": 50.0,
+            "y": -1475,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 134,
+            "label": "Eval Batch Size",
+            "tag": "Training",
+            "cluster": "Level 4",
+            "x": 75.0,
+            "y": -1475,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 135,
+            "label": "Epochs",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 425.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 136,
+            "label": "Num of Training Epochs\u00a0",
+            "tag": "Training",
+            "cluster": "Level 4",
+            "x": 100.0,
+            "y": -1475,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 137,
+            "label": "Activation",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 450.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 138,
+            "label": "Attention Heads",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 475.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 139,
+            "label": "Embedding Size",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 500.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 0,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 140,
+            "label": "Experts Utilization",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 525.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 141,
+            "label": "Image Map (Image)",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 550.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 10,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 142,
+            "label": "Input Channels",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 575.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 143,
+            "label": "Learning Rate",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 600.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 61,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 144,
+            "label": "LR Scheduler Type",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 625.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 145,
+            "label": "Min Duration Off (Voice)",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 650.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 146,
+            "label": "Min Duration On (Voice)",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 675.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 147,
+            "label": "Offset (Voice)",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 700.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 148,
+            "label": "Onset (Voice)",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 725.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 149,
+            "label": "Optimizer",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 750.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 55,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 150,
+            "label": "Precision",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 775.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 12,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 151,
+            "label": "Reconstruction Objective Loss Operation",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 800.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 0,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 152,
+            "label": "Seed",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 825.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 153,
+            "label": "Sequence Length Limit (Sentence)",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 850.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 49,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 154,
+            "label": "Steps Num",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 875.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 19,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 155,
+            "label": "Text Conditioning",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 900.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 156,
+            "label": "Text-Encoder (Text Prompt)",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 925.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 157,
+            "label": "Tokens",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 950.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 13,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 158,
+            "label": "Training Resolution (Image)",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 975.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 10,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 159,
+            "label": "Warmup",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 1000.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 12,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 160,
+            "label": "Weight decay",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 1025.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 12,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 161,
+            "label": "Z-loss",
+            "tag": "Training",
+            "cluster": "Level 3",
+            "x": 1050.0,
+            "y": -1525,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 162,
+            "label": "Diffuser",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 600.0,
+            "y": -1575,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 13,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 163,
+            "label": "Fine-Tuning",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 625.0,
+            "y": -1575,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 21,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 164,
+            "label": "Gradient Accumulations",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 650.0,
+            "y": -1575,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 9,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 165,
+            "label": "Instruction Format",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 675.0,
+            "y": -1575,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 166,
+            "label": "Sample Code",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 700.0,
+            "y": -1575,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 167,
+            "label": "Speeds, Sizes, Times",
+            "tag": "Training",
+            "cluster": "Level 1",
+            "x": 75.0,
+            "y": -1625,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 13,
+            "recommend status": "Suggested",
+            "score": 3
+        },
+        {
+            "key": 168,
+            "label": "Training Date",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 725.0,
+            "y": -1575,
+            "related principle": "P9 - Timeliness",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 169,
+            "label": "Checkpoint Size",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 750.0,
+            "y": -1575,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 170,
+            "label": "Throughput",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 775.0,
+            "y": -1575,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 171,
+            "label": "Number of Epochs",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 800.0,
+            "y": -1575,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 172,
+            "label": "Estimated Cost",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 825.0,
+            "y": -1575,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 173,
+            "label": "Server Location",
+            "tag": "Training",
+            "cluster": "Level 2",
+            "x": 850.0,
+            "y": -1575,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Ignored",
+            "score": 0
+        },
+        {
+            "key": 174,
+            "label": "Resources",
+            "tag": "Training",
+            "cluster": "Level 1",
+            "x": 100.0,
+            "y": -1625,
+            "related principle": "P7 - Sourcing",
+            "amount": 1,
+            "recommend status": "Suggested",
+            "score": 3
+        },
+        {
+            "key": 175,
+            "label": "Others",
+            "tag": "Training",
+            "cluster": "Level 1",
+            "x": 125.0,
+            "y": -1625,
+            "related principle": "P14 - Scalability & Flexibility",
+            "amount": 0,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 176,
+            "label": "Performance and Limitations",
+            "tag": "Performance and Limitations",
+            "cluster": "Module",
+            "x": 0,
+            "y": -2000,
+            "score": 10
+        },
+        {
+            "key": 177,
+            "label": "Approaches to Uncertainty & Variability",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 1",
+            "x": 0,
+            "y": -1950,
+            "related principle": "P2 - Uncertainty",
+            "amount": 26,
+            "recommend status": "Suggested",
+            "score": 3
+        },
+        {
+            "key": 178,
+            "label": "Environmental Impact",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 1",
+            "x": 25.0,
+            "y": -1950,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 59,
+            "recommend status": "Suggested",
+            "score": 3
+        },
+        {
+            "key": 179,
+            "label": "Estimated Carbon Emissions",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 2",
+            "x": 0,
+            "y": -1900,
+            "related principle": "P5 - Ethics",
+            "amount": 59,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 180,
+            "label": "Hardware",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 2",
+            "x": 25.0,
+            "y": -1900,
+            "related principle": "P5 - Ethics",
+            "amount": 52,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 181,
+            "label": "Runtime",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 2",
+            "x": 50.0,
+            "y": -1900,
+            "related principle": "P5 - Ethics",
+            "amount": 52,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 182,
+            "label": "Cloud Provider",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 2",
+            "x": 75.0,
+            "y": -1900,
+            "related principle": "P5 - Ethics",
+            "amount": 52,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 183,
+            "label": "Compute Region",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 2",
+            "x": 100.0,
+            "y": -1900,
+            "related principle": "P5 - Ethics",
+            "amount": 52,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 184,
+            "label": "Estimated Electricity Usage",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 2",
+            "x": 125.0,
+            "y": -1900,
+            "related principle": "P5 - Ethics",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 185,
+            "label": "Ethical Considerations",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 1",
+            "x": 50.0,
+            "y": -1950,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 28,
+            "recommend status": "Core",
+            "score": 4
+        },
+        {
+            "key": 186,
+            "label": "Evaluation Approach (Ethics Aspect)",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 2",
+            "x": 150.0,
+            "y": -1900,
+            "related principle": "P5 - Ethics",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 187,
+            "label": "Evaluation Results (Ethics Aspect)",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 2",
+            "x": 175.0,
+            "y": -1900,
+            "related principle": "P5 - Ethics",
+            "amount": 1,
+            "recommend status": "Suggested",
+            "score": 3
+        },
+        {
+            "key": 188,
+            "label": "Evaluation",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 1",
+            "x": 75.0,
+            "y": -1950,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 84,
+            "recommend status": "Suggested",
+            "score": 3
+        },
+        {
+            "key": 189,
+            "label": "Basic Standard",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 2",
+            "x": 200.0,
+            "y": -1900,
+            "related principle": "P4 - Logical Argumentation",
+            "amount": 22,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 190,
+            "label": "Command",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 2",
+            "x": 225.0,
+            "y": -1900,
+            "related principle": "P4 - Logical Argumentation",
+            "amount": 19,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 191,
+            "label": "Factors",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 2",
+            "x": 250.0,
+            "y": -1900,
+            "related principle": "P4 - Logical Argumentation",
+            "amount": 39,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 192,
+            "label": "Metrics",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 2",
+            "x": 275.0,
+            "y": -1900,
+            "related principle": "P4 - Logical Argumentation",
+            "amount": 28,
+            "recommend status": "Suggested",
+            "score": 3
+        },
+        {
+            "key": 193,
+            "label": "Results",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 2",
+            "x": 300.0,
+            "y": -1900,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 59,
+            "recommend status": "Core",
+            "score": 4
+        },
+        {
+            "key": 194,
+            "label": "Benchmark",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 3",
+            "x": 0,
+            "y": -1850,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 28,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 195,
+            "label": "Accuracy",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 4",
+            "x": 0,
+            "y": -1800,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 10,
+            "recommend status": "Core",
+            "score": 4
+        },
+        {
+            "key": 196,
+            "label": "Benchmark Detail",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 5",
+            "x": 0,
+            "y": -1750,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 197,
+            "label": "DER%",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 5",
+            "x": 25.0,
+            "y": -1750,
+            "related principle": "P4 - Logical Argumentation",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 198,
+            "label": "FA%",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 5",
+            "x": 50.0,
+            "y": -1750,
+            "related principle": "P4 - Logical Argumentation",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 199,
+            "label": "Miss%",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 5",
+            "x": 75.0,
+            "y": -1750,
+            "related principle": "P4 - Logical Argumentation",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 200,
+            "label": "Conf%",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 5",
+            "x": 100.0,
+            "y": -1750,
+            "related principle": "P4 - Logical Argumentation",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 201,
+            "label": "Expected output",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 5",
+            "x": 125.0,
+            "y": -1750,
+            "related principle": "P4 - Logical Argumentation",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 202,
+            "label": "File-level evaluation",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 5",
+            "x": 150.0,
+            "y": -1750,
+            "related principle": "P4 - Logical Argumentation",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 203,
+            "label": "Real-Time Factor",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 4",
+            "x": 25.0,
+            "y": -1800,
+            "related principle": "P4 - Logical Argumentation",
+            "amount": 11,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 204,
+            "label": "Grades on Languages",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 3",
+            "x": 25.0,
+            "y": -1850,
+            "related principle": "P4 - Logical Argumentation",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 205,
+            "label": "Running Time",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 2",
+            "x": 325.0,
+            "y": -1900,
+            "related principle": "P4 - Logical Argumentation",
+            "amount": 16,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 206,
+            "label": "Summary",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 2",
+            "x": 350.0,
+            "y": -1900,
+            "related principle": "P10 - Subjective Info",
+            "amount": 0,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 207,
+            "label": "Tasks",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 2",
+            "x": 375.0,
+            "y": -1900,
+            "related principle": "P4 - Logical Argumentation",
+            "amount": 21,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 208,
+            "label": "Testing Data",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 2",
+            "x": 400.0,
+            "y": -1900,
+            "related principle": "P4 - Logical Argumentation",
+            "amount": 39,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 209,
+            "label": "Initial Results",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 1",
+            "x": 100.0,
+            "y": -1950,
+            "related principle": "P8 - Consistency",
+            "amount": 1,
+            "recommend status": "Not Suggested",
+            "score": 1
+        },
+        {
+            "key": 210,
+            "label": "Limitations and Bias",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 1",
+            "x": 125.0,
+            "y": -1950,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 80,
+            "recommend status": "Suggested",
+            "score": 3
+        },
+        {
+            "key": 211,
+            "label": "Limitation",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 2",
+            "x": 425.0,
+            "y": -1900,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 0,
+            "recommend status": "Core",
+            "score": 4
+        },
+        {
+            "key": 212,
+            "label": "Usage Limitation",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 3",
+            "x": 50.0,
+            "y": -1850,
+            "related principle": "P2 - Uncertainty",
+            "amount": 51,
+            "recommend status": "Suggested",
+            "score": 3
+        },
+        {
+            "key": 213,
+            "label": "Dataset Limitations",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 3",
+            "x": 75.0,
+            "y": -1850,
+            "related principle": "P2 - Uncertainty",
+            "amount": 1,
+            "recommend status": "Suggested",
+            "score": 3
+        },
+        {
+            "key": 214,
+            "label": "Performance Limitations",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 3",
+            "x": 100.0,
+            "y": -1850,
+            "related principle": "P2 - Uncertainty",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 215,
+            "label": "Safety Module",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 3",
+            "x": 125.0,
+            "y": -1850,
+            "related principle": "P2 - Uncertainty",
+            "amount": 1,
+            "recommend status": "Suggested",
+            "score": 3
+        },
+        {
+            "key": 216,
+            "label": "Bias & Fairness",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 2",
+            "x": 450.0,
+            "y": -1900,
+            "related principle": "P2 - Uncertainty",
+            "amount": 51,
+            "recommend status": "Core",
+            "score": 4
+        },
+        {
+            "key": 217,
+            "label": "Model Examination",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 1",
+            "x": 150.0,
+            "y": -1950,
+            "related principle": "P8 - Consistency",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 218,
+            "label": "Model Result Comparison with Family",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 1",
+            "x": 175.0,
+            "y": -1950,
+            "related principle": "P8 - Consistency",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 219,
+            "label": "Model Safety",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 1",
+            "x": 200.0,
+            "y": -1950,
+            "related principle": "P5 - Ethics",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 220,
+            "label": "Troubleshooting",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 1",
+            "x": 225.0,
+            "y": -1950,
+            "related principle": "P11 - Alternative Plan",
+            "amount": 26,
+            "recommend status": "Suggested",
+            "score": 3
+        },
+        {
+            "key": 221,
+            "label": "Others",
+            "tag": "Performance and Limitations",
+            "cluster": "Level 1",
+            "x": 250.0,
+            "y": -1950,
+            "related principle": "P14 - Scalability & Flexibility",
+            "amount": 0,
+            "recommend status": "Normal",
+            "score": 2
+        },
+        {
+            "key": 222,
+            "label": "Community Engagement and Further Insights",
+            "tag": "Community Engagement and Further Insights",
+            "cluster": "Module",
+            "x": 0,
+            "y": -2175,
+            "score": 10
+        },
+        {
+            "key": 223,
+            "label": "Feedback",
+            "tag": "Community Engagement and Further Insights",
+            "cluster": "Level 1",
+            "x": 0,
+            "y": -2125,
+            "related principle": "P13 - Interactive",
+            "amount": 0,
+            "recommend status": "Suggested",
+            "score": 5
+        },
+        {
+            "key": 224,
+            "label": "Question & Comment Method ",
+            "tag": "Community Engagement and Further Insights",
+            "cluster": "Level 2",
+            "x": 0,
+            "y": -2075,
+            "related principle": "P13 - Interactive",
+            "amount": 3,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 225,
+            "label": "Contact Detail",
+            "tag": "Community Engagement and Further Insights",
+            "cluster": "Level 2",
+            "x": 25.0,
+            "y": -2075,
+            "related principle": "P13 - Interactive",
+            "amount": 5,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 226,
+            "label": "Broader Implications",
+            "tag": "Community Engagement and Further Insights",
+            "cluster": "Level 1",
+            "x": 25.0,
+            "y": -2125,
+            "related principle": "P3 - User / Usage",
+            "amount": 0,
+            "recommend status": "Suggested",
+            "score": 5
+        },
+        {
+            "key": 227,
+            "label": "Future Research",
+            "tag": "Community Engagement and Further Insights",
+            "cluster": "Level 2",
+            "x": 50.0,
+            "y": -2075,
+            "related principle": "P14 - Scalability & Flexibility",
+            "amount": 2,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 228,
+            "label": "Lessons",
+            "tag": "Community Engagement and Further Insights",
+            "cluster": "Level 2",
+            "x": 75.0,
+            "y": -2075,
+            "related principle": "P10 - Subjective Info",
+            "amount": 1,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 229,
+            "label": "More Info",
+            "tag": "Community Engagement and Further Insights",
+            "cluster": "Level 1",
+            "x": 50.0,
+            "y": -2125,
+            "related principle": "P14 - Scalability & Flexibility",
+            "amount": 0,
+            "recommend status": "Normal",
+            "score": 4
+        },
+        {
+            "key": 230,
+            "label": "Dataset Creation",
+            "tag": "Community Engagement and Further Insights",
+            "cluster": "Level 2",
+            "x": 100.0,
+            "y": -2075,
+            "related principle": "P1 - Rigorous & Scientific",
+            "amount": 4,
+            "recommend status": "Ignored",
+            "score": 0
+        },
+        {
+            "key": 231,
+            "label": "Reproducible Research",
+            "tag": "Community Engagement and Further Insights",
+            "cluster": "Level 2",
+            "x": 125.0,
+            "y": -2075,
+            "related principle": "P14 - Scalability & Flexibility",
+            "amount": 7,
+            "recommend status": "Normal",
+            "score": 4
+        }
+    ],
     "edges": [
-  [1, 2],
-  [2, 3],
-  [2, 4],
-  [2, 5],
-  [2, 6],
-  [2, 7],
-  [2, 8],
-  [2, 9],
-  [2, 10],
-  [1, 11],
-  [11, 12],
-  [11, 13],
-  [11, 14],
-  [1, 15],
-  [15, 16],
-  [15, 17],
-  [15, 18],
-  [15, 19],
-  [1, 20],
-  [20, 21],
-  [20, 22],
-  [20, 23],
-  [20, 24],
-  [20, 25],
-  [20, 26],
-  [20, 27],
-  [20, 28],
-  [20, 29],
-  [1, 30],
-  [30, 31],
-  [30, 32],
-  [30, 33],
-  [1, 34],
-  [34, 35],
-  [34, 36],
-  [34, 37],
-  [34, 38],
-  [1, 39],
-  [40, 41],
-  [40, 42],
-  [40, 43],
-  [43, 44],
-  [43, 45],
-  [43, 46],
-  [43, 47],
-  [40, 48],
-  [48, 49],
-  [48, 50],
-  [48, 51],
-  [40, 52],
-  [52, 53],
-  [52, 54],
-  [52, 55],
-  [52, 56],
-  [40, 57],
-  [40, 58],
-  [40, 59],
-  [40, 60],
-  [40, 61],
-  [62, 63],
-  [62, 64],
-  [62, 65],
-  [62, 66],
-  [62, 67],
-  [62, 68],
-  [62, 69],
-  [69, 70],
-  [69, 71],
-  [69, 72],
-  [69, 73],
-  [69, 74],
-  [69, 75],
-  [69, 76],
-  [62, 77],
-  [62, 78],
-  [62, 79],
-  [62, 80],
-  [80, 81],
-  [80, 82],
-  [80, 83],
-  [80, 84],
-  [62, 85],
-  [86, 87],
-  [87, 88],
-  [87, 89],
-  [87, 90],
-  [87, 91],
-  [87, 92],
-  [86, 93],
-  [93, 94],
-  [94, 95],
-  [94, 96],
-  [93, 97],
-  [93, 98],
-  [93, 99],
-  [93, 100],
-  [93, 101],
-  [93, 102],
-  [93, 103],
-  [93, 104],
-  [93, 105],
-  [93, 106],
-  [93, 107],
-  [93, 108],
-  [93, 109],
-  [93, 110],
-  [93, 111],
-  [86, 112],
-  [112, 113],
-  [113, 114],
-  [114, 115],
-  [114, 116],
-  [113, 117],
-  [113, 118],
-  [113, 119],
-  [113, 120],
-  [113, 121],
-  [113, 122],
-  [113, 123],
-  [113, 124],
-  [112, 125],
-  [125, 126],
-  [125, 127],
-  [125, 128],
-  [125, 129],
-  [125, 130],
-  [112, 131],
-  [131, 132],
-  [132, 133],
-  [132, 134],
-  [131, 135],
-  [135, 136],
-  [131, 137],
-  [131, 138],
-  [131, 139],
-  [131, 140],
-  [131, 141],
-  [131, 142],
-  [131, 143],
-  [131, 144],
-  [131, 145],
-  [131, 146],
-  [131, 147],
-  [131, 148],
-  [131, 149],
-  [131, 150],
-  [131, 151],
-  [131, 152],
-  [131, 153],
-  [131, 154],
-  [131, 155],
-  [131, 156],
-  [131, 157],
-  [131, 158],
-  [131, 159],
-  [131, 160],
-  [131, 161],
-  [112, 162],
-  [112, 163],
-  [112, 164],
-  [112, 165],
-  [112, 166],
-  [86, 167],
-  [167, 168],
-  [167, 169],
-  [167, 170],
-  [167, 171],
-  [167, 172],
-  [167, 173],
-  [86, 174],
-  [86, 175],
-  [176, 177],
-  [176, 178],
-  [178, 179],
-  [178, 180],
-  [178, 181],
-  [178, 182],
-  [178, 183],
-  [178, 184],
-  [176, 185],
-  [185, 186],
-  [185, 187],
-  [176, 188],
-  [188, 189],
-  [188, 190],
-  [188, 191],
-  [188, 192],
-  [188, 193],
-  [193, 194],
-  [194, 195],
-  [195, 196],
-  [195, 197],
-  [195, 198],
-  [195, 199],
-  [195, 200],
-  [195, 201],
-  [195, 202],
-  [194, 203],
-  [193, 204],
-  [188, 205],
-  [188, 206],
-  [188, 207],
-  [188, 208],
-  [176, 209],
-  [176, 210],
-  [210, 211],
-  [211, 212],
-  [211, 213],
-  [211, 214],
-  [211, 215],
-  [210, 216],
-  [176, 217],
-  [176, 218],
-  [176, 219],
-  [176, 220],
-  [176, 221],
-  [222, 223],
-  [223, 224],
-  [223, 225],
-  [222, 226],
-  [226, 227],
-  [226, 228],
-  [222, 229],
-  [229, 230],
-  [229, 231]
-
-],
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            1,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            1,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            1,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            20,
+            23
+        ],
+        [
+            20,
+            24
+        ],
+        [
+            20,
+            25
+        ],
+        [
+            20,
+            26
+        ],
+        [
+            20,
+            27
+        ],
+        [
+            20,
+            28
+        ],
+        [
+            20,
+            29
+        ],
+        [
+            1,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            30,
+            33
+        ],
+        [
+            1,
+            34
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            34,
+            36
+        ],
+        [
+            34,
+            37
+        ],
+        [
+            34,
+            38
+        ],
+        [
+            1,
+            39
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            40,
+            42
+        ],
+        [
+            40,
+            43
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            43,
+            45
+        ],
+        [
+            43,
+            46
+        ],
+        [
+            43,
+            47
+        ],
+        [
+            40,
+            48
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            48,
+            50
+        ],
+        [
+            48,
+            51
+        ],
+        [
+            40,
+            52
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            52,
+            54
+        ],
+        [
+            52,
+            55
+        ],
+        [
+            52,
+            56
+        ],
+        [
+            40,
+            57
+        ],
+        [
+            40,
+            58
+        ],
+        [
+            40,
+            59
+        ],
+        [
+            40,
+            60
+        ],
+        [
+            40,
+            61
+        ],
+        [
+            62,
+            63
+        ],
+        [
+            62,
+            64
+        ],
+        [
+            62,
+            65
+        ],
+        [
+            62,
+            66
+        ],
+        [
+            62,
+            67
+        ],
+        [
+            62,
+            68
+        ],
+        [
+            62,
+            69
+        ],
+        [
+            69,
+            70
+        ],
+        [
+            69,
+            71
+        ],
+        [
+            69,
+            72
+        ],
+        [
+            69,
+            73
+        ],
+        [
+            69,
+            74
+        ],
+        [
+            69,
+            75
+        ],
+        [
+            69,
+            76
+        ],
+        [
+            62,
+            77
+        ],
+        [
+            62,
+            78
+        ],
+        [
+            62,
+            79
+        ],
+        [
+            62,
+            80
+        ],
+        [
+            80,
+            81
+        ],
+        [
+            80,
+            82
+        ],
+        [
+            80,
+            83
+        ],
+        [
+            80,
+            84
+        ],
+        [
+            62,
+            85
+        ],
+        [
+            86,
+            87
+        ],
+        [
+            87,
+            88
+        ],
+        [
+            87,
+            89
+        ],
+        [
+            87,
+            90
+        ],
+        [
+            87,
+            91
+        ],
+        [
+            87,
+            92
+        ],
+        [
+            86,
+            93
+        ],
+        [
+            93,
+            94
+        ],
+        [
+            94,
+            95
+        ],
+        [
+            94,
+            96
+        ],
+        [
+            93,
+            97
+        ],
+        [
+            93,
+            98
+        ],
+        [
+            93,
+            99
+        ],
+        [
+            93,
+            100
+        ],
+        [
+            93,
+            101
+        ],
+        [
+            93,
+            102
+        ],
+        [
+            93,
+            103
+        ],
+        [
+            93,
+            104
+        ],
+        [
+            93,
+            105
+        ],
+        [
+            93,
+            106
+        ],
+        [
+            93,
+            107
+        ],
+        [
+            93,
+            108
+        ],
+        [
+            93,
+            109
+        ],
+        [
+            93,
+            110
+        ],
+        [
+            93,
+            111
+        ],
+        [
+            86,
+            112
+        ],
+        [
+            112,
+            113
+        ],
+        [
+            113,
+            114
+        ],
+        [
+            114,
+            115
+        ],
+        [
+            114,
+            116
+        ],
+        [
+            113,
+            117
+        ],
+        [
+            113,
+            118
+        ],
+        [
+            113,
+            119
+        ],
+        [
+            113,
+            120
+        ],
+        [
+            113,
+            121
+        ],
+        [
+            113,
+            122
+        ],
+        [
+            113,
+            123
+        ],
+        [
+            113,
+            124
+        ],
+        [
+            112,
+            125
+        ],
+        [
+            125,
+            126
+        ],
+        [
+            125,
+            127
+        ],
+        [
+            125,
+            128
+        ],
+        [
+            125,
+            129
+        ],
+        [
+            125,
+            130
+        ],
+        [
+            112,
+            131
+        ],
+        [
+            131,
+            132
+        ],
+        [
+            132,
+            133
+        ],
+        [
+            132,
+            134
+        ],
+        [
+            131,
+            135
+        ],
+        [
+            135,
+            136
+        ],
+        [
+            131,
+            137
+        ],
+        [
+            131,
+            138
+        ],
+        [
+            131,
+            139
+        ],
+        [
+            131,
+            140
+        ],
+        [
+            131,
+            141
+        ],
+        [
+            131,
+            142
+        ],
+        [
+            131,
+            143
+        ],
+        [
+            131,
+            144
+        ],
+        [
+            131,
+            145
+        ],
+        [
+            131,
+            146
+        ],
+        [
+            131,
+            147
+        ],
+        [
+            131,
+            148
+        ],
+        [
+            131,
+            149
+        ],
+        [
+            131,
+            150
+        ],
+        [
+            131,
+            151
+        ],
+        [
+            131,
+            152
+        ],
+        [
+            131,
+            153
+        ],
+        [
+            131,
+            154
+        ],
+        [
+            131,
+            155
+        ],
+        [
+            131,
+            156
+        ],
+        [
+            131,
+            157
+        ],
+        [
+            131,
+            158
+        ],
+        [
+            131,
+            159
+        ],
+        [
+            131,
+            160
+        ],
+        [
+            131,
+            161
+        ],
+        [
+            112,
+            162
+        ],
+        [
+            112,
+            163
+        ],
+        [
+            112,
+            164
+        ],
+        [
+            112,
+            165
+        ],
+        [
+            112,
+            166
+        ],
+        [
+            86,
+            167
+        ],
+        [
+            167,
+            168
+        ],
+        [
+            167,
+            169
+        ],
+        [
+            167,
+            170
+        ],
+        [
+            167,
+            171
+        ],
+        [
+            167,
+            172
+        ],
+        [
+            167,
+            173
+        ],
+        [
+            86,
+            174
+        ],
+        [
+            86,
+            175
+        ],
+        [
+            176,
+            177
+        ],
+        [
+            176,
+            178
+        ],
+        [
+            178,
+            179
+        ],
+        [
+            178,
+            180
+        ],
+        [
+            178,
+            181
+        ],
+        [
+            178,
+            182
+        ],
+        [
+            178,
+            183
+        ],
+        [
+            178,
+            184
+        ],
+        [
+            176,
+            185
+        ],
+        [
+            185,
+            186
+        ],
+        [
+            185,
+            187
+        ],
+        [
+            176,
+            188
+        ],
+        [
+            188,
+            189
+        ],
+        [
+            188,
+            190
+        ],
+        [
+            188,
+            191
+        ],
+        [
+            188,
+            192
+        ],
+        [
+            188,
+            193
+        ],
+        [
+            193,
+            194
+        ],
+        [
+            194,
+            195
+        ],
+        [
+            195,
+            196
+        ],
+        [
+            195,
+            197
+        ],
+        [
+            195,
+            198
+        ],
+        [
+            195,
+            199
+        ],
+        [
+            195,
+            200
+        ],
+        [
+            195,
+            201
+        ],
+        [
+            195,
+            202
+        ],
+        [
+            194,
+            203
+        ],
+        [
+            193,
+            204
+        ],
+        [
+            188,
+            205
+        ],
+        [
+            188,
+            206
+        ],
+        [
+            188,
+            207
+        ],
+        [
+            188,
+            208
+        ],
+        [
+            176,
+            209
+        ],
+        [
+            176,
+            210
+        ],
+        [
+            210,
+            211
+        ],
+        [
+            211,
+            212
+        ],
+        [
+            211,
+            213
+        ],
+        [
+            211,
+            214
+        ],
+        [
+            211,
+            215
+        ],
+        [
+            210,
+            216
+        ],
+        [
+            176,
+            217
+        ],
+        [
+            176,
+            218
+        ],
+        [
+            176,
+            219
+        ],
+        [
+            176,
+            220
+        ],
+        [
+            176,
+            221
+        ],
+        [
+            222,
+            223
+        ],
+        [
+            223,
+            224
+        ],
+        [
+            223,
+            225
+        ],
+        [
+            222,
+            226
+        ],
+        [
+            226,
+            227
+        ],
+        [
+            226,
+            228
+        ],
+        [
+            222,
+            229
+        ],
+        [
+            229,
+            230
+        ],
+        [
+            229,
+            231
+        ]
+    ],
     "clusters": [
-        { "key": "Model Detail", "color": "#6c3e81", "clusterLabel": "Model Detail" },
-        { "key": "Model Use", "color": "#a4923a", "clusterLabel": "Model Use" },
-        { "key": "Data", "color": "#5f83cc", "clusterLabel": "Data" },
-        { "key": "Training", "color": "#666666", "clusterLabel": "Training" },
-        { "key": "Performance and Limitations", "color": "#666666", "clusterLabel": "Performance and Limitations" },
-        { "key": "Community Engagement and Further Insights", "color": "#666666", "clusterLabel": "Community Engagement and Further Insights" }
-  ],
-  "tags": [
-        { "key": "Module", "image": "charttype.svg" },
-        { "key": "Level 1", "image": "charttype.svg" },
-        { "key": "Level 2", "image": "company.svg" },
-        { "key": "Level 3", "image": "concept.svg" },
-        { "key": "Level 4", "image": "field.svg" },
-        { "key": "Level 5", "image": "list.svg" }
-  ]
+        {
+            "key": "Module",
+            "color": "#6c3e81",
+            "clusterLabel": "Model Detail"
+        },
+        {
+            "key": "Level 1",
+            "color": "#a4923a",
+            "clusterLabel": "Level 1"
+        },
+        {
+            "key": "Level 2",
+            "color": "#5f83cc",
+            "clusterLabel": "Level 2"
+        },
+        {
+            "key": "Level 3",
+            "color": "#666666",
+            "clusterLabel": "Level 3"
+        },
+        {
+            "key": "Level 4",
+            "color": "#666666",
+            "clusterLabel": "Level 4"
+        },
+        {
+            "key": "Level 5",
+            "color": "#666666",
+            "clusterLabel": "Level 5"
+        }
+    ],
+    "tags": [
+        {
+            "key": "Model Detail",
+            "image": "charttype.svg"
+        },
+        {
+            "key": "Model Use",
+            "image": "charttype.svg"
+        },
+        {
+            "key": "Data",
+            "image": "company.svg"
+        },
+        {
+            "key": "Training",
+            "image": "concept.svg"
+        },
+        {
+            "key": "Performance and Limitations",
+            "image": "field.svg"
+        },
+        {
+            "key": "Community Engagement and Further Insights",
+            "image": "list.svg"
+        }
+    ]
 }
