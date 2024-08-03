@@ -1,7 +1,7 @@
 import { useSigma } from "@react-sigma/core";
 import { FC, useEffect, useState } from "react";
 import { NodeData } from "../types";
-import { BsInfoCircle } from "react-icons/bs";
+import { BsFillUsbFill } from "react-icons/bs";
 import Panel from "./Panel";
 
 
@@ -106,7 +106,7 @@ const NodeDetailsPanel: FC<NodeDetailsPanelProps> = ({ node,  onToggleSelect, is
       initiallyDeployed
       title={
         <>
-          <BsInfoCircle className="text-muted" /> Parameter Info 
+          <BsFillUsbFill className="text-muted" /> Parameter Info 
         </>
       }
     >
