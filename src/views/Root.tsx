@@ -73,8 +73,31 @@ const Root: FC = () => {
       const newSelectedNodes = { ...prevSelectedNodes };
       if (newSelectedNodes[node.key]) {
         delete newSelectedNodes[node.key];
+        switch (node.cluster) {
+          case "Module":
+            node["color"] = "#003049";
+            break;
+          case "Level 1":
+            node["color"] = "#6b2c39";
+            break;
+          case "Level 2":
+            node["color"] = "#d62828";
+            break;
+          case "Level 3":
+            node["color"] = "#f77f00";
+            break;
+          case "Leve 4":
+            node["color"] = "#fcbf49";
+            break;
+          case "Level 5":
+            node["color"] = "#eae2b7";
+            break;
+          default:
+            break;
+        }
       } else {
         newSelectedNodes[node.key] = node;
+        node["color"] = "#00FF00";
       }
       return newSelectedNodes;
     });
@@ -103,12 +126,6 @@ const Root: FC = () => {
         {dataReady && (
           <>
             <div className="controls">
-            <NodeDetailsPanel
-                node={selectedNode}
-                onClose={() => setSelectedNode(null)}
-                onToggleSelect={handleToggleSelect}
-                isSelected={!!selectedNode && !!selectedNodes[selectedNode.key]}
-              />
               <div className="react-sigma-control ico">
                 <button
                   type="button"
@@ -145,6 +162,12 @@ const Root: FC = () => {
               <div className="panels">
                 <SearchField filters={filtersState} />
                 <DescriptionPanel summaryScores={summaryScores} />
+                <NodeDetailsPanel
+                  node={selectedNode}
+                  onClose={() => setSelectedNode(null)}
+                  onToggleSelect={handleToggleSelect}
+                  isSelected={!!selectedNode && !!selectedNodes[selectedNode.key]}
+                />
                 <ClustersPanel
                   clusters={dataset.clusters}
                   filters={filtersState}

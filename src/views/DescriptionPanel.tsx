@@ -12,7 +12,7 @@ ChartJS.register(RadialLinearScale, PointElement, LineElement, Filler, Tooltip, 
 
 const DescriptionPanel: FC<DescriptionPanelProps> = ({ summaryScores }) => {
   const categories = ["Data", "Training", "Performance and Limitations", "Community Engagement and Further Insights", "Model Detail", "Model Use"];
-  const benchmarkScores = [50, 50, 50, 50, 50, 50];
+  const benchmarkScores = [20, 40, 50, 5, 40, 30];
 
   const data = {
     labels: categories,
@@ -38,7 +38,7 @@ const DescriptionPanel: FC<DescriptionPanelProps> = ({ summaryScores }) => {
     scales: {
       r: {
         beginAtZero: true,
-        max: 100,
+        max: 60,
         pointLabels: {
           callback: (value: string) => {
             const maxLabelLength = 13;

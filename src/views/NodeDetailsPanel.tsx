@@ -1,4 +1,4 @@
-import { FC } from "react";
+import { FC, useEffect, useState } from "react";
 import { NodeData } from "../types";
 import { BsInfoCircle } from "react-icons/bs";
 import Panel from "./Panel";
@@ -11,7 +11,7 @@ interface NodeDetailsPanelProps {
   isSelected: boolean;
 }
 
-const allowedKeys = ["tag", "cluster", "related principle", "amount"];
+const allowedKeys = ["tag", "cluster", "related principle", "amount", "x", "y"];
 
 const recommendLevels = {
   'Core': 2,
@@ -23,6 +23,11 @@ const recommendLevels = {
 
 const NodeDetailsPanel: FC<NodeDetailsPanelProps> = ({ node,  onToggleSelect, isSelected }) => {
   if (!node) return null;
+
+  const [localNode, setLocalNode] = useState<NodeData>(node);
+  useEffect(() => {
+    setLocalNode(node);
+  }, [node]);
 
   let baseScore = 0;
   switch (node.tag) {
@@ -52,6 +57,12 @@ const NodeDetailsPanel: FC<NodeDetailsPanelProps> = ({ node,  onToggleSelect, is
     const newStatus = e.target.value;
     node["recommend status"] = newStatus;
     node.score = Math.max(baseScore + recommendLevels[newStatus], 0);
+
+    setLocalNode({
+      ...localNode,
+      score: node.score,
+      ["recommend status"]: newStatus
+    })
   };
 
   return (
@@ -59,7 +70,7 @@ const NodeDetailsPanel: FC<NodeDetailsPanelProps> = ({ node,  onToggleSelect, is
       initiallyDeployed
       title={
         <>
-          <BsInfoCircle className="text-muted" /> Parameter Info
+          <BsInfoCircle className="text-muted" /> Parameter Info 
         </>
       }
     >
@@ -68,9 +79,8 @@ const NodeDetailsPanel: FC<NodeDetailsPanelProps> = ({ node,  onToggleSelect, is
         padding: "10px",
         border: "1px solid #ccc",
         borderRadius: "5px",
-        maxWidth: "300px", // Adjust as needed
       }}
-    >
+      >
       <h2
         style={{
           wordWrap: "break-word", // Word wrapping
@@ -91,11 +101,11 @@ const NodeDetailsPanel: FC<NodeDetailsPanelProps> = ({ node,  onToggleSelect, is
       {node.cluster !== "Module" && (
         <div>
           <div>
-            <strong>score:</strong> {node.score}
+            <strong>score:</strong> {localNode.score}
           </div>
           <div>
             <strong>recommend status:</strong>
-            <select value={node["recommend status"]} onChange={handleRecommendStatusChange}>
+            <select value={localNode['recommend status']} onChange={handleRecommendStatusChange}>
               {Object.keys(recommendLevels).map((level) => (
                 <option key={level} value={level}>
                   {level.charAt(0).toUpperCase() + level.slice(1)}
@@ -103,6 +113,7 @@ const NodeDetailsPanel: FC<NodeDetailsPanelProps> = ({ node,  onToggleSelect, is
               ))}
             </select>
           </div>
+          <br></br>
           <button onClick={() => onToggleSelect(node)}>
             {isSelected ? "Deselect" : "Select"} Node
           </button>

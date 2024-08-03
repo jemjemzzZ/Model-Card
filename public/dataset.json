@@ -3660,59 +3660,59 @@
     "clusters": [
         {
             "key": "Module",
-            "color": "#6c3e81",
+            "color": "#003049",
             "clusterLabel": "Module"
         },
         {
             "key": "Level 1",
-            "color": "#a4923a",
+            "color": "#6b2c39",
             "clusterLabel": "Level 1"
         },
         {
             "key": "Level 2",
-            "color": "#5f83cc",
+            "color": "#d62828",
             "clusterLabel": "Level 2"
         },
         {
             "key": "Level 3",
-            "color": "#666666",
+            "color": "#f77f00",
             "clusterLabel": "Level 3"
         },
         {
             "key": "Level 4",
-            "color": "#666666",
+            "color": "#fcbf49",
             "clusterLabel": "Level 4"
         },
         {
             "key": "Level 5",
-            "color": "#666666",
+            "color": "#eae2b7",
             "clusterLabel": "Level 5"
         }
     ],
     "tags": [
         {
             "key": "Model Detail",
-            "image": "charttype.svg"
-        },
-        {
-            "key": "Model Use",
-            "image": "charttype.svg"
-        },
-        {
-            "key": "Data",
-            "image": "company.svg"
-        },
-        {
-            "key": "Training",
             "image": "concept.svg"
         },
         {
+            "key": "Model Use",
+            "image": "tool.svg"
+        },
+        {
+            "key": "Data",
+            "image": "list.svg"
+        },
+        {
+            "key": "Training",
+            "image": "method.svg"
+        },
+        {
             "key": "Performance and Limitations",
-            "image": "field.svg"
+            "image": "technology.svg"
         },
         {
             "key": "Community Engagement and Further Insights",
-            "image": "list.svg"
+            "image": "unknown.svg"
         }
     ]
 }
