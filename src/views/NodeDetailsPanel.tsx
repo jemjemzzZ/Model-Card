@@ -1,3 +1,4 @@
+import { useSigma } from "@react-sigma/core";
 import { FC, useEffect, useState } from "react";
 import { NodeData } from "../types";
 import { BsInfoCircle } from "react-icons/bs";
@@ -53,6 +54,9 @@ const NodeDetailsPanel: FC<NodeDetailsPanelProps> = ({ node,  onToggleSelect, is
       break;
   }
 
+  const sigma = useSigma();
+  const graph = sigma.getGraph();
+
   const handleRecommendStatusChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const newStatus = e.target.value;
     node["recommend status"] = newStatus;
@@ -63,6 +67,38 @@ const NodeDetailsPanel: FC<NodeDetailsPanelProps> = ({ node,  onToggleSelect, is
       score: node.score,
       ["recommend status"]: newStatus
     })
+  };
+
+  const handleToggleSelect = () => {
+    onToggleSelect(node);
+
+    if (node["color"] === "#00FF00") {
+      switch (node.cluster) {
+        case "Module":
+          graph.setNodeAttribute(node.key, "color", "#003049");
+          break;
+        case "Level 1":
+          graph.setNodeAttribute(node.key, "color", "#6b2c39");
+          break;
+        case "Level 2":
+          graph.setNodeAttribute(node.key, "color", "#d62828");
+          break;
+        case "Level 3":
+          graph.setNodeAttribute(node.key, "color", "#f77f00");
+          break;
+        case "Leve 4":
+          graph.setNodeAttribute(node.key, "color", "#fcbf49");
+          break;
+        case "Level 5":
+          graph.setNodeAttribute(node.key, "color", "#eae2b7");
+          break;
+        default:
+          break;
+      }
+    } else {
+      graph.setNodeAttribute(node.key, "color", "#00FF00");
+    }
+
   };
 
   return (
@@ -114,7 +150,7 @@ const NodeDetailsPanel: FC<NodeDetailsPanelProps> = ({ node,  onToggleSelect, is
             </select>
           </div>
           <br></br>
-          <button onClick={() => onToggleSelect(node)}>
+          <button onClick={handleToggleSelect}>
             {isSelected ? "Deselect" : "Select"} Node
           </button>
         </div>
