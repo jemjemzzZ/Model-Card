@@ -7,6 +7,7 @@ export interface NodeData {
   x: number;
   y: number;
   score: number;
+  "recommend status": string;
 }
 
 export interface Cluster {

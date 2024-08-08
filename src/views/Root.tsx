@@ -45,9 +45,9 @@ const Root: FC = () => {
       defaultDrawNodeHover: drawHover,
       defaultNodeType: "image",
       defaultEdgeType: "arrow",
-      labelDensity: 0.07,
+      labelDensity: 1,
       labelGridCellSize: 60,
-      labelRenderedSizeThreshold: 15,
+      labelRenderedSizeThreshold: 0,
       labelFont: "Lato, sans-serif",
       zIndex: true,
     }),
@@ -103,12 +103,6 @@ const Root: FC = () => {
         {dataReady && (
           <>
             <div className="controls">
-            <NodeDetailsPanel
-                node={selectedNode}
-                onClose={() => setSelectedNode(null)}
-                onToggleSelect={handleToggleSelect}
-                isSelected={!!selectedNode && !!selectedNodes[selectedNode.key]}
-              />
               <div className="react-sigma-control ico">
                 <button
                   type="button"
@@ -145,6 +139,12 @@ const Root: FC = () => {
               <div className="panels">
                 <SearchField filters={filtersState} />
                 <DescriptionPanel summaryScores={summaryScores} />
+                <NodeDetailsPanel
+                  node={selectedNode}
+                  onClose={() => setSelectedNode(null)}
+                  onToggleSelect={handleToggleSelect}
+                  isSelected={!!selectedNode && !!selectedNodes[selectedNode.key]}
+                />
                 <ClustersPanel
                   clusters={dataset.clusters}
                   filters={filtersState}

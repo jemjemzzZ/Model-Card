@@ -46,7 +46,7 @@ const TagsPanel: FC<{
     <Panel
       title={
         <>
-          <MdCategory className="text-muted" /> Categories
+          <MdCategory className="text-muted" /> Categories (Modules)
           {visibleTagsCount < tags.length ? (
             <span className="text-muted text-small">
               {" "}
@@ -59,7 +59,7 @@ const TagsPanel: FC<{
       }
     >
       <p>
-        <i className="text-muted">Click a category to show/hide related pages from the network.</i>
+        <i className="text-muted">Click a category to show/hide related nodes from the network.</i>
       </p>
       <p className="buttons">
         <button className="btn" onClick={() => setTags(mapValues(keyBy(tags, "key"), () => true))}>
