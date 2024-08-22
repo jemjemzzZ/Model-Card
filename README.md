@@ -1,10 +1,6 @@
-# Sigma.js full-featured demo
+# ModelCard Demo
 
-This project aims to provide a full-features "real life" application using sigma.js. It is built using [Vite](https://vitejs.dev/), and uses [react-sigma](https://sim51.github.io/react-sigma/), to interface sigma.js with React.
-
-## Dataset
-
-The dataset has been kindly crafted by the [Sciences-Po médialab](https://medialab.sciencespo.fr/) and [OuestWare](https://www.ouestware.com/en/) teams using [Seealsology](https://densitydesign.github.io/strumentalia-seealsology/). It represents a network of Wikipedia pages, connected by ["See also"](https://en.wikipedia.org/wiki/See_also) links. It then was tagged by hand.
+AI Model Card
 
 ## Available Scripts
 
@@ -13,7 +9,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [localhost:5173](http://localhost:5173) to view it in the browser.
+Open [localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
