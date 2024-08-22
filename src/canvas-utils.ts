@@ -38,8 +38,8 @@ export function drawHover(context: CanvasRenderingContext2D, data: PlainObject, 
   const subLabelSize = size - 2;
 
   const label = data.label;
-  const subLabel = data.tag !== "unknown" ? data.tag : "";
-  const clusterLabel = data.clusterLabel;
+  const subLabel = data.isHovered && data.tag !== "unknown" ? data.tag : ""; // Only draw sublabel for hovered node
+  const clusterLabel = data.isHovered ? data.clusterLabel : ""; // Only draw cluster label for hovered node
 
   // Then we draw the label background
   context.beginPath();
@@ -63,7 +63,7 @@ export function drawHover(context: CanvasRenderingContext2D, data: PlainObject, 
   const w = Math.round(textWidth + size / 2 + data.size + 3);
   const hLabel = Math.round(size / 2 + 4);
   const hSubLabel = subLabel ? Math.round(subLabelSize / 2 + 9) : 0;
-  const hClusterLabel = Math.round(subLabelSize / 2 + 9);
+  const hClusterLabel = clusterLabel ? Math.round(subLabelSize / 2 + 9) : 0;
 
   drawRoundRect(context, x, y - hSubLabel - 12, w, hClusterLabel + hLabel + hSubLabel + 12, 5);
   context.closePath();
@@ -84,9 +84,11 @@ export function drawHover(context: CanvasRenderingContext2D, data: PlainObject, 
     context.fillText(subLabel, data.x + data.size + 3, data.y - (2 * size) / 3 - 2);
   }
 
-  context.fillStyle = data.color;
-  context.font = `${weight} ${subLabelSize}px ${font}`;
-  context.fillText(clusterLabel, data.x + data.size + 3, data.y + size / 3 + 3 + subLabelSize);
+  if (clusterLabel) {
+    context.fillStyle = data.color;
+    context.font = `${weight} ${subLabelSize}px ${font}`;
+    context.fillText(clusterLabel, data.x + data.size + 3, data.y + size / 3 + 3 + subLabelSize);
+  }
 }
 
 /**

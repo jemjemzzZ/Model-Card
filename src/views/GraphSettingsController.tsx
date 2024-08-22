@@ -28,11 +28,12 @@ const GraphSettingsController: FC<PropsWithChildren<{ hoveredNode: string | null
       defaultDrawNodeLabel: drawLabel,
       defaultDrawNodeHover: drawHover,
       nodeReducer: (node: string, data: Attributes) => {
+        const isHovered = node === debouncedHoveredNode;
         if (debouncedHoveredNode) {
           return node === debouncedHoveredNode ||
             graph.hasEdge(node, debouncedHoveredNode) ||
             graph.hasEdge(debouncedHoveredNode, node)
-            ? { ...data, zIndex: 1 }
+            ? { ...data, zIndex: 1, highlighted: true, isHovered: isHovered}
             : { ...data, zIndex: 0, label: "", color: NODE_FADE_COLOR, image: null, highlighted: false };
         }
         return data;
@@ -62,7 +63,7 @@ const GraphSettingsController: FC<PropsWithChildren<{ hoveredNode: string | null
             node === debouncedHoveredNode ||
             graph.hasEdge(node, debouncedHoveredNode) ||
             graph.hasEdge(debouncedHoveredNode, node)
-              ? { ...data, zIndex: 1 }
+              ? { ...data, zIndex: 1, highlighted: false }
               : { ...data, zIndex: 0, label: "", color: NODE_FADE_COLOR, image: null, highlighted: false }
         : null,
     );
